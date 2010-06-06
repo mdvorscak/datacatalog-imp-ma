@@ -11,6 +11,7 @@ class SourcePuller < Puller
   def initialize
     @metadata_master=[]
     @base_uri       = 'https://wiki.state.ma.us/confluence/display/data/Data+Catalog'
+    @uri            = 'http://wiki.state.ma.us'
     @details_folder = Output.dir  '/../cache/raw/source/detail'
     @index_data     = Output.file '/../cache/raw/source/index.yml'
     @index_html     = Output.file '/../cache/raw/source/index.html'
@@ -45,29 +46,40 @@ class SourcePuller < Puller
       file=Output.file '/../cache/raw/source/'+tag+'.html'
       doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>false)
 
-      debugger
       subset_metadata=get_metadata_from_subset(doc,tag)
       merge_subset_to_master(subset_metadata)
     end
+      debugger
     @metadata_master
   end
 
   def get_metadata_from_subset(doc,set_tag)
-	  table_rows=doc.xpath("//table//tr")
+	  table_rows=doc.xpath("//table[@class='confluenceTable']//tr")
 
 	  metadata=[]
 	  table_rows.delete(table_rows[0])
 	  table_rows.each do |row|
-		  formats={:downloads=>{},:source=>{}}
+		  formats={}
 		  cells=row.css("td")
-		  add_format(formats,cells[2].inner_text,cells[2])
-		  add_format(formats,cells[3].inner_text,cells[3])
-		  add_format(formats,cells[4].inner_text,cells[4])
-		  add_format(formats,cells[5].inner_text,cells[5])
+      format_cell=cells.last
+
+      format_links=format_cell.css("a")
+      next if format_links.empty?
+
+      format_links.each do |node|
+        add_formats(formats,node)
+      end
+
 
 		metadata<<{
-			:title=>cells[0].inner_text,
-			:description=>U.multi_line_clean(cells[1].inner_text),
+      :tags=>set_tag,
+      :source_organization=>{:name=>U.single_line_clean(cells[0].inner_text),
+                             :href=>get_href_from_node(cells[0])},
+      :metadata=>{:title=>U.single_line_clean(cells[1].inner_text),
+                  :href=>get_href_from_node(cells[1])},
+      :contact=>get_contact_from_node(cells[3]),
+			:title=>cells[1].inner_text,
+			:description=>U.multi_line_clean(cells[2].inner_text),
 			:formats=>formats
 		}
 	  end
@@ -75,20 +87,28 @@ class SourcePuller < Puller
 	metadata
   end
 
-  def add_format(formats,label,node)
-	  a_tag=node.css("a").first
-	  if a_tag
-		  link=URI.unescape(a_tag["href"])
-		  formats[:downloads][label]={:href=>link}
-		  #strip http:// out to make the next regex simpler
-		  link.gsub!("http://","")
-		  #Only go to the first /
-		  source_link=link.scan(/.*?\//).first
-		  	
-		  formats[:source][:source_url]="http://"+source_link
-		  formats[:source][:source_org]=source_link.chop
+  def get_contact_from_node(node)
+    mailto=get_href_from_node(node)
+    unless mailto.nil?
+      email=mailto.gsub("mailto:","")
+      return {:email=>email, :name=>node.inner_text}
+    else
+      return node.inner_text
+    end
+  end
 
-	  end
+  def get_href_from_node(node)
+    a_tag=node.css("a").first
+    if a_tag
+      return URI.unescape(a_tag["href"])
+    else
+      return nil
+    end
+  end
+
+  def add_formats(formats,node)
+		  link=@uri+URI.unescape(node["href"])
+		  formats[node.inner_text]={:href=>link}
   end
 
 	def parse_metadata(metadata)
