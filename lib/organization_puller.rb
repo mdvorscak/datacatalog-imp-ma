@@ -10,9 +10,9 @@ class OrganizationPuller < Puller
     @metadata_master=[]
     @base_uri       = 'https://wiki.state.ma.us/confluence/display/data/Data+Catalog'
     @uri            = 'http://wiki.state.ma.us'
-    @details_folder = Output.dir  '/../cache/raw/source/detail'
-    @index_data     = Output.file '/../cache/raw/source/index.yml'
-    @index_html     = Output.file '/../cache/raw/source/index.html'
+    @details_folder = Output.dir  '/../cache/raw/organization/detail'
+    @index_data     = Output.file '/../cache/raw/organization/index.yml'
+    @index_html     = Output.file '/../cache/raw/organization/index.html'
    # @pull_log       = Output.file '/../cache/raw/source/pull_log.yml'
     super
   end
@@ -25,10 +25,10 @@ class OrganizationPuller < Puller
   def get_metadata
     sets=get_subsets
     sets[:links_and_tags].each do |link,tag|
-      file=Output.file '/../cache/raw/source/'+tag+'.html'
+      file=Output.file '/../cache/raw/organization/'+tag+'.html'
       doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>false)
 
-      subset_metadata=get_metadata_from_subset(doc,tag)
+      subset_metadata=get_metadata_from_subset(doc)
       merge_subset_to_master(subset_metadata)
     end
     @metadata_master
@@ -58,7 +58,7 @@ class OrganizationPuller < Puller
 
   protected
 
-  def get_metadata_from_subset(doc,set_tag)
+  def get_metadata_from_subset(doc)
 	  table_rows=doc.xpath("//table[@class='confluenceTable']//tr")
 
 	  metadata=[]
