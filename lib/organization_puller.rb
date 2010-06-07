@@ -7,39 +7,31 @@ require 'uri'
 class OrganizationPuller < Puller
 
   def initialize
-    @base_uri       = 'http://www.utah.gov/government/agencylist.html'
-    @details_folder = Output.dir  '/../cache/raw/organization/detail'
-    @index_data     = Output.file '/../cache/raw/organization/index.yml'
-    @index_html     = Output.file '/../cache/raw/organization/index.html'
+    @metadata_master=[]
+    @base_uri       = 'https://wiki.state.ma.us/confluence/display/data/Data+Catalog'
+    @uri            = 'http://wiki.state.ma.us'
+    @details_folder = Output.dir  '/../cache/raw/source/detail'
+    @index_data     = Output.file '/../cache/raw/source/index.yml'
+    @index_html     = Output.file '/../cache/raw/source/index.html'
    # @pull_log       = Output.file '/../cache/raw/source/pull_log.yml'
     super
   end
 
-  protected
+  def merge_subset_to_master(subset)
+    subset.each {|data| @metadata_master<<data}
+  end
 
-  def get_metadata(doc)
-	metadata=[]
-	#Need 2 seperate node sets because they have the same parent node
-	links_block=doc.xpath('//div[@id="main"]//ul')
-	headers=doc.xpath('//div[@id="main"]//h3')
+  #Iterates through each subset parsing it for metadata and combining that with the master set.
+  def get_metadata
+    sets=get_subsets
+    sets[:links_and_tags].each do |link,tag|
+      file=Output.file '/../cache/raw/source/'+tag+'.html'
+      doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>false)
 
-	#Remove the first two ul tags
-	2.times {links_block.delete(links_block.first)}
-	links_block.size.times do |i|
-		data={:org_type=>URI.unescape(headers[i].inner_text)}
-		links_block[i].css("li").each do |link|
-			#get the child node
-			a_tag=link.css("a").first
-			data[:name]=U.single_line_clean(a_tag.inner_text)
-			data[:href]=URI.unescape(a_tag["href"])
-			metadata<<{
-				:org_type=>data[:org_type],
-				:name=>data[:name],
-				:href=>data[:href],
-			}	
-		end
-	end
-	metadata	
+      subset_metadata=get_metadata_from_subset(doc,tag)
+      merge_subset_to_master(subset_metadata)
+    end
+    @metadata_master
   end
 
 # Returns as many fields as possible:
@@ -56,16 +48,64 @@ class OrganizationPuller < Puller
   #   property :source_count
   #   property :custom
   #
-  def parse_metadata(metadata)
-	{
-      :name         => metadata[:name],
-      :url          => metadata[:href],
-      :catalog_name => "utah.gov",
-      :catalog_url  => @base_uri,
-      :org_type     => metadata[:org_type],
-      :organization => { :name => "Utah" },
+	def parse_metadata(metadata)
+      metadata[:catalog_name]="Massachusetts State Data Catalog"
+      metadata[:catalog_url]=@base_uri
+      metadata[:org_type]="governmental"
+      metadata[:organization]="Massachusetts"
+    metadata
+	end
 
-	}
+  protected
+
+  def get_metadata_from_subset(doc,set_tag)
+	  table_rows=doc.xpath("//table[@class='confluenceTable']//tr")
+
+	  metadata=[]
+	  table_rows.delete(table_rows[0])
+	  table_rows.each do |row|
+
+		  cells=row.css("td")
+      next if U.single_line_clean(cells[0].inner_text).empty?
+      m={
+        :name=>U.single_line_clean(cells[0].inner_text),
+        :url=>get_href_from_node(cells[0]),
+      }
+
+      already_exists=metadata.find { |data| data[:name]==m[:name]}
+
+      if !already_exists
+        metadata<<m
+      end
+	  end
+	metadata
+  end
+
+  private
+
+  def get_subsets
+    doc=U.parse_html_from_file_or_uri(@base_uri,@index_html,:force_fetch=>false)
+
+    nodes=doc.xpath("//div[@class='wiki-content']//ul//li")
+    links_and_tags=[]
+    nodes.each do |node|
+      a_tag=node.css("a").first
+      link=URI.unescape(a_tag["href"])
+      tag=a_tag["title"]
+      tag.gsub!(" Data","")
+      links_and_tags<<[@uri+link,tag]
+    end
+    {:links_and_tags=>links_and_tags}
+  end
+
+
+  def get_href_from_node(node)
+    a_tag=node.css("a").first
+    if a_tag
+      return URI.unescape(a_tag["href"])
+    else
+      return nil
+    end
   end
   
 end
