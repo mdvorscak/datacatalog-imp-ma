@@ -11,7 +11,7 @@ class SourcePuller < Puller
   def initialize
     @metadata_master=[]
     @base_uri       = 'https://wiki.state.ma.us/confluence/display/data/Data+Catalog'
-    @uri            = 'http://wiki.state.ma.us'
+    @uri            = 'https://wiki.state.ma.us'
     @details_folder = Output.dir  '/../cache/raw/source/detail'
     @index_data     = Output.file '/../cache/raw/source/index.yml'
     @index_html     = Output.file '/../cache/raw/source/index.html'
@@ -28,7 +28,7 @@ class SourcePuller < Puller
     sets=get_subsets
     sets[:links_and_tags].each do |link,tag|
       file=Output.file '/../cache/raw/source/'+tag+'.html'
-      doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>false)
+      doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>true)
 
       subset_metadata=get_metadata_from_subset(doc,tag)
       merge_subset_to_master(subset_metadata)
@@ -105,7 +105,7 @@ class SourcePuller < Puller
   private
 
   def get_subsets
-    doc=U.parse_html_from_file_or_uri(@base_uri,@index_html,:force_fetch=>false)
+    doc=U.parse_html_from_file_or_uri(@base_uri,@index_html,:force_fetch=>true)
 
     nodes=doc.xpath("//div[@class='wiki-content']//ul//li")
     links_and_tags=[]

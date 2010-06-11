@@ -9,7 +9,7 @@ class OrganizationPuller < Puller
   def initialize
     @metadata_master=[]
     @base_uri       = 'https://wiki.state.ma.us/confluence/display/data/Data+Catalog'
-    @uri            = 'http://wiki.state.ma.us'
+    @uri            = 'https://wiki.state.ma.us'
     @details_folder = Output.dir  '/../cache/raw/organization/detail'
     @index_data     = Output.file '/../cache/raw/organization/index.yml'
     @index_html     = Output.file '/../cache/raw/organization/index.html'
