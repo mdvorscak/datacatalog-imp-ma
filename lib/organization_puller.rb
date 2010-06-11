@@ -52,7 +52,7 @@ class OrganizationPuller < Puller
       metadata[:catalog_name]="Massachusetts State Data Catalog"
       metadata[:catalog_url]=@base_uri
       metadata[:org_type]="governmental"
-      metadata[:organization]="Massachusetts"
+      metadata[:organization]={:name=>"Massachusetts"}
     metadata
 	end
 
