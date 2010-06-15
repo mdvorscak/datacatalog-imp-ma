@@ -26,7 +26,7 @@ class OrganizationPuller < Puller
     sets=get_subsets
     sets[:links_and_tags].each do |link,tag|
       file=Output.file '/../cache/raw/organization/'+tag+'.html'
-      doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>false)
+      doc=U.parse_html_from_file_or_uri(link,file,:force_fetch=>true)
 
       subset_metadata=get_metadata_from_subset(doc)
       merge_subset_to_master(subset_metadata)
@@ -66,13 +66,20 @@ class OrganizationPuller < Puller
 	  table_rows.each do |row|
 
 		  cells=row.css("td")
-      next if U.single_line_clean(cells[0].inner_text).empty?
+      name=U.single_line_clean(cells[0].inner_text)
+      url=get_href_from_node(cells[0])
+
+
+      if name.empty?
+        next if url.nil?
+        name=a_tag(cells[0]).inner_text
+      end
       m={
-        :name=>U.single_line_clean(cells[0].inner_text),
-        :url=>get_href_from_node(cells[0]),
+        :name=>name,
+        :url=>url,
       }
 
-      already_exists=metadata.find { |data| data[:name]==m[:name]}
+      already_exists=metadata.find { |data| data[:url]==m[:url]}
 
       if !already_exists
         metadata<<m
@@ -89,9 +96,9 @@ class OrganizationPuller < Puller
     nodes=doc.xpath("//div[@class='wiki-content']//ul//li")
     links_and_tags=[]
     nodes.each do |node|
-      a_tag=node.css("a").first
-      link=URI.unescape(a_tag["href"])
-      tag=a_tag["title"]
+      a=a_tag(node)
+      link=URI.unescape(a["href"])
+      tag=a["title"]
       tag.gsub!(" Data","")
       links_and_tags<<[@uri+link,tag]
     end
@@ -100,12 +107,16 @@ class OrganizationPuller < Puller
 
 
   def get_href_from_node(node)
-    a_tag=node.css("a").first
-    if a_tag
-      return URI.unescape(a_tag["href"])
+    a=a_tag(node)
+    if a
+      return URI.unescape(a["href"])
     else
       return nil
     end
+  end
+
+  def a_tag(node)
+    node.css("a").first
   end
   
 end

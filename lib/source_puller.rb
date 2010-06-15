@@ -62,9 +62,9 @@ class SourcePuller < Puller
 		  cells=row.css("td")
       next if U.single_line_clean(cells[0].inner_text).empty?
       m={
-        #:tags=>set_tag,
+        #:custom=>{:tags=>set_tag},
         :organization=>{:name=>U.single_line_clean(cells[0].inner_text),
-                               :home_url=>get_href_from_node(cells[0])},
+                        :url=>get_href_from_node(cells[0])},
         :title=>U.single_line_clean(cells[1].inner_text),
         :url=>get_href_from_node(cells[1]),
         :description=>U.multi_line_clean(cells[2].inner_text),
@@ -87,15 +87,14 @@ class SourcePuller < Puller
         m[:source_type]="dataset"
       end
 
-    #Next two were removed to get the push to work properly
 
     #If it has the modified date add it to the metadata, otherwise don't
     #modified=get_last_modified(cells[4])
-    #m[:released]=modified if modified
+    #m[:custom][:last_modified]=modified if modified
 
     #Add contact if one exists, otherwise don't
     #contact=get_contact_from_node(cells[3])
-    #m[:contact]=contact if contact
+    #m[:custom][:contact]=contact if contact
 
     metadata<<m
 	  end
