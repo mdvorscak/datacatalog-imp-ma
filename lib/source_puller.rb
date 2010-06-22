@@ -62,7 +62,6 @@ class SourcePuller < Puller
 		  cells=row.css("td")
       next if U.single_line_clean(cells[0].inner_text).empty?
       m={
-        #:custom=>{:tags=>set_tag},
         :organization=>{:name=>U.single_line_clean(cells[0].inner_text),
                         :url=>get_href_from_node(cells[0])},
         :title=>U.single_line_clean(cells[1].inner_text),
@@ -70,6 +69,7 @@ class SourcePuller < Puller
         :description=>U.multi_line_clean(cells[2].inner_text),
       }
 
+      add_to_custom(m,"tags","data tags","string",set_tag)
 		  formats={}
       format_cell=cells.last
       format_links=format_cell.css("a")
@@ -89,12 +89,12 @@ class SourcePuller < Puller
 
 
     #If it has the modified date add it to the metadata, otherwise don't
-    #modified=get_last_modified(cells[4])
-    #m[:custom][:last_modified]=modified if modified
+    modified=get_last_modified(cells[4])
+    add_to_custom(m,"modified","last modified","string",modified) if modified
 
     #Add contact if one exists, otherwise don't
-    #contact=get_contact_from_node(cells[3])
-    #m[:custom][:contact]=contact if contact
+    contact=get_contact_from_node(cells[3])
+    add_to_custom(m,"contact","The 'owner' for the current data","string",contact) if modified
 
     metadata<<m
 	  end
@@ -102,6 +102,14 @@ class SourcePuller < Puller
   end
 
   private
+
+  def add_to_custom(metadata,label,description,type,value)
+    if metadata[:custom].nil?
+      metadata[:custom]={}
+    end
+    num=metadata[:custom].size.to_s
+    metadata[:custom][num]={:label=>label,:description=>description,:type=>type,:value=>value}
+  end
 
   def get_subsets
     doc=U.parse_html_from_file_or_uri(@base_uri,@index_html,:force_fetch=>true)
@@ -135,7 +143,7 @@ class SourcePuller < Puller
       return {:email=>email, :name=>node.inner_text}
     else
       inner=U.single_line_clean(node.inner_text)
-      inner.empty? ? nil : inner
+      inner.empty? or inner=="N/A" ? nil : inner
     end
   end
 
