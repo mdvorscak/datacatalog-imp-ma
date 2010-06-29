@@ -1,0 +1,62 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Licensing
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: N/A - Varies by Board
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://license.reg.state.ma.us/public/dpl_contact_info/dpl_contact_info.asp
+      :name: " Contact DPL "
+:description: |-
+  Data and information for the various professions licensed by the Boards of:
+  Allied Health Professionals
+  	Allied Mental Health and Human Services Professionals
+  	Architects
+  	Barbers
+  	Certified Health Officer
+  	Chiropractors
+  	Cosmetologists
+  	Dietitians and Nutritionists
+  	Dispensing Opticians
+  	Electricians and Alarm System Installers
+  	Electrologists
+  	Funeral Directors, Embalmers and Establishments
+  	Hearing Instrument Specialists
+  	Home Inspectors
+  	Landscape Architects
+  	Massage Therapy
+  	Operators of Drinking Water Supply Facilities
+  	Optometry
+  	Plumbers and Gas Fitters
+  	Podiatry
+  	Professional Engineers and Professional Land Surveyors
+  	Public Accountancy
+  	Psychologists
+  	Radio and Television Technicians
+  	Real Estate Appraisers
+  	Real Estate Brokers & Salespersons
+  	Sanitarians
+  	Sheet Metal Workers
+  	Social Workers
+  	Speech-Language Pathologists and Audiologists
+  	
+  Veterinary Medicine
+:downloads: 
+:organization: 
+  :name: DPL- Division of Professional Licensure
+  :url: http://www.mass.gov/dpl
+:source_type: api
+:title: Web Site
+:url: http://www.mass.gov/dpl

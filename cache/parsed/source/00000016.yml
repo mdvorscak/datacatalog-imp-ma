@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: Reporting data and review statistics
+:downloads: 
+:organization: 
+  :name: OPP - Office of Patient Protection
+  :url: http://www.mass.gov/dph/opp
+:source_type: api
+:title: Managed Care Protections and Grievances Reports and Statistics
+:url: http://www.mass.gov/?pageID=eohhs2subtopic&L=4&L0=Home&L1=Researcher&L2=Insurance+(including+MassHealth)&L3=Managed+Care+Protections+and+Grievances&sid=Eeohhs2

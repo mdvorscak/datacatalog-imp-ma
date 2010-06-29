@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: Recent Decisions by the Division of Labor
+:downloads: 
+:organization: 
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+  :url: http://www.mass.gov/eolwd
+:source_type: api
+:title: Division of Labor Decisions
+:url: http://www.mass.gov/?pageID=elwdsubtopic&L=5&L0=Home&L1=Government&L2=Departments+and+Divisions+(EOLWD)&L3=Division+of+Labor+Relations&L4=DLR-CERB+Recent+Decisions&sid=Elwd

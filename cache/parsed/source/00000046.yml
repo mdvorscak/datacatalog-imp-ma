@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Energy
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Updated weekly
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: DOER.Energy@State.MA.US
+      :name: " DOER.Energy@State.MA.US "
+:description: Follow energy market data including prices for heating (heating oil, propane & electricity) and automobile fuels, as well as alternative fuels such as Compressed Natural Gas for vehicles. Notifications on these updates are provided on the state RSS feed, and at twitter.com/MassDOER.
+:downloads: 
+:organization: 
+  :name: DOER - Department of Energy Resources
+  :url: http://www.mass.gov/?pageID=eoeeaagencylanding&L=5&L0=Home&L1=Grants+&+Technical+Assistance&L2=Guidance+&+Technical+Assistance&L3=Agencies+and+Divisions&L4=Department+of+Energy+Resources+(DOER)&sid=Eoeea
+:source_type: api
+:title: Home & Auto Fuel Price Information
+:url: http://www.mass.gov/?pageID=eoeeasubtopic&L=3&L0=Home&L1=Energy,+Utilities+&+Clean+Technologies&L2=Home+&+Auto+Fuel+Price+Information&sid=Eoeea

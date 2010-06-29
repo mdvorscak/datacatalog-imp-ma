@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: June 2009.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: Wellhead protection areas are important for protecting the recharge area around public water supply (PWS) groundwater sources. A Zone II is a wellhead protection area that has been determined by hydro-geologic modeling and approved by the Department of Environmental Protection's (DEP) Drinking Water Program (DWP). In cases where hydro-geologic modeling studies have not been performed and there is no approved Zone II, an Interim Wellhead Protection Area (IWPA) is established based on DEP DWP well pumping rates or default values. Certain land uses may be either prohibited or restricted in both approved (Zone II) and interim (IWPA) wellhead protection areas. For MassDEP's regulatory wording of these zones please see Water Supply Protection Area Definitions.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: DEP Wellhead Protection Areas (Zone II, IWPA)
+:url: http://www.mass.gov/mgis/ziis.htm

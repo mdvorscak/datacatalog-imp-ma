@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: October 2009.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: This layer is the official state-maintained street transportation dataset available from MassGIS and represents local and major roadways, including designations for Interstate, U.S. and State highways.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: Executive Office of Transportation - Office of Transportation Planning Roads
+:url: http://www.mass.gov/mgis/eotroads.htm

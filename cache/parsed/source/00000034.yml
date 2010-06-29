@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Datalayers are continually updated or added. See http://www.mass.gov/mgis for update information.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: Aleda.Freeman@state.ma.us
+      :name: " Freeman, Aleda\n\
+        617-626-1193 "
+:description: |-
+  Support of XML-based requests via the Commonwealth's Service Gateway 
+  This is the home of the MassGIS GeoServer-based geospatial web services - open services available to the public as well as government users. These are OpenGeospatial Consortium (OGC) standard WMS (web map service), WFS (web feature service), and WCS (web coverage service) services. This site contains information on accessing, using and developing against MassGIS-maintained "Web Map Service" and "Web Feature Service" services. The services also support the OGC Styled Layer Descriptor (SLD) standard. Currently 867 datalayers are available, from landuse and zoning to wetlands and aerial photography. Get maps or information in response to queries (in URL or XML format) in a variety of output formats and almost 4,000 different map projections. Over a dozen state agencies have written application against these services which currently respond to 22,000 requests/day.
+:downloads: 
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: api
+:title: WMS, WFS, and Geocoding XML-based requestsGeospatial Web Services
+:url: https://wiki.state.ma.us/confluence/display/data/WMS,+WFS+and+Geocoding+-+XML+access

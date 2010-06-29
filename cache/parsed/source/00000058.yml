@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: Spreadsheets containing current and historical socioeconomic, financial, budget, property tax and assessment data for all 351 cities and towns are available for downloading.
+:downloads: 
+:organization: 
+  :name: DOR - Department of Revenue
+  :url: http://www.mass.gov/dor
+:source_type: api
+:title: Data Bank Reports
+:url: http://www.mass.gov/?pageID=dorsubtopic&L=4&L0=Home&L1=Local+Officials&L2=Municipal+Data+and+Financial+Management&L3=Data+Bank+Reports&sid=Ador

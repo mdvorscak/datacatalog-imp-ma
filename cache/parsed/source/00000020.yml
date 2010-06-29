@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: Birth data, death data and population reports
+:downloads: 
+:organization: 
+  :name: DPH- Department of Public Health
+  :url: http://www.mass.gov/dph
+:source_type: api
+:title: Population Health Statistics
+:url: http://www.mass.gov/?pageID=eohhs2subtopic&L=4&L0=Home&L1=Consumer&L2=Community+Health+and+Safety&L3=Population+Health+Statistics&sid=Eeohhs2

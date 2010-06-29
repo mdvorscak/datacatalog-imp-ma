@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: April 2009.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: This point datalayer shows the locations of schools in Massachusetts. Schools appearing in this layer are those attended by students in pre-kindergarten through high school. Categories of schools include public, private, charter, collaborative programs, and approved special education. This data was originally developed by the Massachusetts Department of Environmental Protection's (DEP) GIS Program based on database information provided by the Massachusetts Department of Education (DOE). The update published in April 2009 was based on listings MassGIS obtained from the DOE as of February 9, 2009.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: Schools
+:url: http://www.mass.gov/mgis/schools.htm

@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: September 2009.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: This political boundary datalayer has been created from latitude and longitude coordinates found in the 68-volume Harbor and Lands Commission Town Boundary Atlas. This Atlas series, and updates since it was published, describes the legal boundary for each of the 351 municipalities in Massachusetts. These coordinates were recorded from surveys of the location of each boundary marker around the periphery of each community. Each survey was tied into higher order monumented survey control points. The Atlases also include detailed descriptions of each community's boundary and location maps for each of the original boundary marker locations. The original surveys were conducted in the 1890s. The Atlas series was published in the early 1900s and has since been updated by the Survey Section of the Massachusetts Highway Department with changes as they are approved by the legislature.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: Community Boundaries (Towns) from Survey Points
+:url: http://www.mass.gov/mgis/townssurvey.htm

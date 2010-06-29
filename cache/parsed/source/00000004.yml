@@ -1,0 +1,37 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Technology
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 01/07/10
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: true
+:description: ""
+:downloads: 
+- :format: XML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.xml?version=1
+- :format: HTML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.htm?version=1
+- :format: CSV
+  :url: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.csv?version=1
+- :format: XLS
+  :url: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.xls?version=1
+- :format: JSON
+  :url: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.json?version=1
+:organization: 
+  :name: ITD
+  :url: http://mass.gov/itd
+:source_type: dataset
+:title: Agency Service Account Manager List
+:url: http://www.mass.gov/?pageID=afmodulechunk&L=4&L0=Home&L1=Research+&+Technology&L2=Oversight+Agencies&L3=Information+Technology+Division&sid=Eoaf&b=terminalcontent&f=itd_services_cust_support_samlist_by_eo&csid=Eoaf

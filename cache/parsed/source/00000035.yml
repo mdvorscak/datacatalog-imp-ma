@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Financial
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 6/7/2010
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: comptroller.info@state.ma.us?subject=CommonCents
+      :name: " comptroller.info@state.ma.us "
+:description: Spending on Commonwealth Employees - How many employees work for the Commonwealth?
+:downloads: 
+:organization: 
+  :name: OSC- Office of the State Comptroller
+  :url: http://www.mass.gov/?pageID=oschomepage&L=1&sid=Aosc&L0=Home
+:source_type: api
+:title: Common Cents
+:url: https://massfinance.state.ma.us/CommonCents/commonEmployeeResult.asp?pg=6&cat=employee&num=1

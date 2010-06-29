@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+:description: The Massachusetts Department of Elementary and Secondary Education collects enrollment data for all students enrolled in public schools. Regular and Special Education enrollment data by grade, gender, race, language and low income status are available for download.
+:downloads: 
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: api
+:title: Enrollment Data
+:url: http://www.doe.mass.edu/infoservices/reports/enroll/default.html

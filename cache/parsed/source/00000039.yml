@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Updated periodically
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: mass.wildlife@state.ma.us
+      :name: " mass.wildlife@state.ma.us "
+:description: In addition to the comprehensive Forest Inventory that occurred across all DFW lands, individual harvest sites are intensively monitored for plant species composition prior to and after logging activities so that harvest goals for regeneration of particular tree species and structural habitat conditions can be assessed. DFW is also working with EOEA and DCR on long term environmental monitoring on harvested lands and forest reserve lands. Data are available in a number of formats, and are updated when monitoring surveys have been completed.
+:downloads: 
+:organization: 
+  :name: DFW - Division of Fisheries and Wildlife
+  :url: http://www.mass.gov/dfwele/dfw
+:source_type: api
+:title: DFW Biomonitoring Data
+:url: https://wiki.state.ma.us/confluence/display/data/DFW+Biomonitoring+Data

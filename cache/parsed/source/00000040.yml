@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Updated annually
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: mass.wildlife@state.ma.us
+      :name: " mass.wildlife@state.ma.us "
+:description: MassWildlife maintains records of white-tailed deer, black bear and wild turkey harvests. Yearly and historical records are available.
+:downloads: 
+:organization: 
+  :name: DFG - Department of Fish and Game
+  :url: http://www.mass.gov/dfwele/index.htm
+:source_type: api
+:title: Hunting Harvest Information
+:url: http://www.mass.gov/dfwele/dfw/recreation/hunting/hunting_harvests.htm

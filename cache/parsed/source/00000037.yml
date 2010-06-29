@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Financial
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 1/22/09
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: databank@dor.state.ma.us
+      :name: " databank@dor.state.ma.us "
+:description: The Municipal Data Bank collects, analyzes and distributes financial, demographic and economic data on Massachusetts cities and towns. Financial data comes from a series of reports that municipalities submit annually to the Division of Local Services. Demographic and economic data is collected from other state and federal agencies. The Data Bank develops and maintains systems to collect and distribute the information, assists users in interpretation and use, participates in research projects with other agencies and organizations, and distributes reports which summarize data analyses.
+:downloads: 
+:organization: 
+  :name: DOR - Department of Revenue
+  :url: http://www.mass.gov/dor
+:source_type: api
+:title: Municipal Data Bank
+:url: http://www.mass.gov/?pageID=dorsubtopic&L=4&L0=Home&L1=Local+Officials&L2=Municipal+Data+and+Financial+Management&L3=Data+Bank+Reports&sid=Ador

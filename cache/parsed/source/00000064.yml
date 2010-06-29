@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 3/2010
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: detlmi@detma.org
+      :name: " detlmi@detma.org "
+:description: Information on labor force, employment, unemployment, and unemployment rates produced by Local Area Unemployment Statistics (LAUS) for the Commonwealth, New England City and Town Statistical Areas, Labor Market Areas (LMA), Workforce Investment Areas (WIA), Counties, Cities and Towns.
+:downloads: 
+:organization: 
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+  :url: http://www.mass.gov/eolwd
+:source_type: api
+:title: Labor Force/Unemployment Rates
+:url: http://www.mass.gov/?pageID=elwdterminal&L=4&L0=Home&L1=Government&L2=EOLWD+Data+and+Statistics&L3=Labor+Market+Information&sid=Elwd&b=terminalcontent&f=dua_economic_data_labor_force_and_unemployment_rates&csid=Elwd

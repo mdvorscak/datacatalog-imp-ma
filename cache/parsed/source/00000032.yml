@@ -1,0 +1,37 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: April 2008.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: |-
+  In spring 2008, the U.S. Geological Survey, as part of its Boston 133 Cities Urban Area mapping program, contracted for true-color imagery covering the metropolitan Boston area and beyond. Image type for the entire region (more than 1.7 million acres) is 24-bit, 3-band (red, green, blue) natural color. Each band has pixel values ranging 0-255. Pixel resolution is 30 cm., or approximately one foot. 
+   
+  Additionally, 30 municipalities participated in the Boston Upgrade of the USGS project; these cities and towns contributed funding for separate flights to produce 4-band (red, green, blue, near-infrared) imagery. Pixel resolution for these images is 15 centimeters (approximately 6 inches). 
+   
+  This digital orthoimagery can serve a variety of purposes, from general planning, to field reference for spatial analysis, to a tool for data development and revision of vector maps. It can also serve as a reference layer or basemap for myriad applications inside geographic information system (GIS) software.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: USGS Color Ortho Imagery (2008)
+:url: http://www.mass.gov/mgis/colororthos2008.htm

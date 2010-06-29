@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 04/22/08
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://www.doe.mass.edu/contact/qanda.aspx
+      :name: " Comment/Inquiry Form "
+:description: A joint effort of the Massachusetts Department of Higher Education and the Massachusetts Department of Elementary and Secondary Education, these School-to-College Reports provide postsecondary outcome data on students who graduated from Massachusetts public high schools in 2005 and enrolled in a Massachusetts public college or university in fall 2005. Every public high school with 10 or more graduates enrolling in public colleges receives its own report.
+:downloads: 
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: api
+:title: Massachusetts School-to-College Reports
+:url: http://www.doe.mass.edu/research/reports/s2c.html

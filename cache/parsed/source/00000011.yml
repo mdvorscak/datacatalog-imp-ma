@@ -1,0 +1,33 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Licensing
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: June 2009
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: Stephen.Hallem@state.ma.us
+      :name: " Hallem, Stephen "
+:description: Annual list of registered well drillers (July 1, 2008-June 30, 2009). In Massachusetts, only registered drillers can drill wells.
+:downloads: 
+- :format: PDF
+  :url: https://wiki.state.ma.ushttp://www.mass.gov/dep/water/drinking/drillers.pdf
+- :format: XLS
+  :url: https://wiki.state.ma.ushttp://www.mass.gov/dep/water/drinking/drillers.xls
+:organization: 
+  :name: DEP - Division of Environmental Protection
+  :url: http://www.mass.gov/dep
+:source_type: dataset
+:title: Licensed Welldrillers
+:url: http://www.mass.gov/dep/water/drinking/welldril.htm

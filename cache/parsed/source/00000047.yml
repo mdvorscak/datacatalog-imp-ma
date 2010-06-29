@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Energy
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Updated monthly
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: DOER.Energy@State.MA.US
+      :name: " DOER.Energy@State.MA.US "
+:description: Data tracking the migration of electric power customers in Massachusetts from incumbent generation sources to competitive generation sources. Notifications on these updates are provided on the state RSS feed, and at twitter.com/MassDOER.
+:downloads: 
+:organization: 
+  :name: DOER - Department of Energy Resources
+  :url: http://www.mass.gov/?pageID=eoeeaagencylanding&L=5&L0=Home&L1=Grants+&+Technical+Assistance&L2=Guidance+&+Technical+Assistance&L3=Agencies+and+Divisions&L4=Department+of+Energy+Resources+(DOER)&sid=Eoeea
+:source_type: api
+:title: Electric Customer Migration Data
+:url: http://www.mass.gov/?pageID=eoeeamodulechunk&L=5&L0=Home&L1=Grants+&+Technical+Assistance&L2=Guidance+&+Technical+Assistance&L3=Agencies+and+Divisions&L4=Department+of+Energy+Resources+(DOER)&sid=Eoeea&b=terminalcontent&f=doer_electric_deregulation_migration&csid=Eoeea

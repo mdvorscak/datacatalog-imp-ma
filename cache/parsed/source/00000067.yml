@@ -1,0 +1,8 @@
+--- 
+:description: Current Employment Statistics (CES) data represent monthly estimates of employment, by industry for the Commonwealth and for seven Metropolitan New England City and Town Statistical Areas (NECTA). Statewide hours and earnings data are published for selected industries within the manufacturing super sector.
+:organization: 
+  :home_url: http://www.mass.gov/eolwd
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+:source_type: api
+:title: Current Employment Statistics (CES-790), Most Recent 13 Months
+:url: http://lmi2.detma.org/lmi/lmi_ces_a.asp

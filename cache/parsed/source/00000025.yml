@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: August 2009.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: This point datalayer shows the location of 82 acute care hospitals in Massachusetts. Acute care hospitals are those licensed under MGL Chapter 111, section 51 and which contain a majority of medical-surgical, pediatric, obstetric, and maternity beds, as defined by the Massachusetts Department of Public Health (DPH). The features in this layer are based on database information provided to MassGIS from the DPH, Office of Emergency Medical Services (OEMS). The August 2009 update of this dataset limited the features to include only acute care hospitals (and removed other "specialty hospitals"); it replaces the layer formerly known as "Hospitals and Emergency Room Facilities." The August 2009 update kept the ER status data and also added attributes to track the status of trauma centers and teaching hospitals.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: Acute Care Hospitals
+:url: http://www.mass.gov/mgis/hospitals.htm

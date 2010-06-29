@@ -1,0 +1,41 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 11/12/2009
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: Linda.Hutchins@state.ma.us
+      :name: " Linda Hutchins 617-626-1384 "
+:description: |-
+  DCR's Office of Water Resources maintains a precipitation database that is updated monthly using reports from our observers and cooperative agencies. Precipitation values in the database are totals for each station for each month. 
+  Gauge (Station) Locations : XLS, CSV, XML, HTML, JSON
+:downloads: 
+- :format: XML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.xml?version=1
+- :format: HTML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.htm?version=1
+- :format: CSV
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.csv?version=1
+- :format: XLS
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.xls?version=1
+- :format: JSON
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.json?version=1
+:organization: 
+  :name: DCR- Department of Conservation and Recreation
+  :url: http://www.mass.gov/dcr
+:source_type: dataset
+:title: Precipitation Database
+:url: http://www.mass.gov/dcr/waterSupply/rainfall/precipdb.htm

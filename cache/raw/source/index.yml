@@ -1,0 +1,1496 @@
+--- 
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: |-
+    Economic Data including: 
+    Employment and Jobs, Labor Force And Unemployment Rates, Occupations, Massachusetts Employment Projections, Employer Locator, Job Vacancy Survey, Business Hiring Expectations, Unemployment Insurance Claims, Labor Market Information Publications
+  :organization: 
+    :name: EOLWD- Executive Office of Labor and Workforce Development
+    :url: http://www.mass.gov/eolwd
+  :source_type: api
+  :title: Employment/Jobs, Labor Force, Unemployment Rates, Occupations, Massachusetts Employment Projections, etc.
+  :url: http://www.mass.gov/?pageID=elwdtopic&L=3&L0=Home&L1=Government&L2=EOLWD+Data+and+Statistics&sid=Elwd
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 3/2010
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: detlmi@detma.org
+        :name: " detlmi@detma.org "
+  :description: Labor force and unemployment 				data is estimated each month. Information is produced on labor force, employment, 				unemployment, and unemployment rates for the United States, the Commonwealth and 				for each Labor Market Area (LMA), Workforce Investment Area (WIA), City and Town, 				and County in Massachusetts
+  :organization: 
+    :name: EOLWD- Executive Office of Labor and Workforce Development
+    :url: http://www.mass.gov/eolwd
+  :source_type: api
+  :title: Labor Force and Unemployment Data
+  :url: http://lmi2.detma.org/lmi/lmi_lur_a.asp
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 3/2010
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: detlmi@detma.org
+        :name: " detlmi@detma.org "
+  :description: Information on labor force, employment, unemployment, and unemployment rates produced by Local Area Unemployment Statistics (LAUS) for the Commonwealth, New England City and Town Statistical Areas, Labor Market Areas (LMA), Workforce Investment Areas (WIA), Counties, Cities and Towns.
+  :organization: 
+    :name: EOLWD- Executive Office of Labor and Workforce Development
+    :url: http://www.mass.gov/eolwd
+  :source_type: api
+  :title: Labor Force/Unemployment Rates
+  :url: http://www.mass.gov/?pageID=elwdterminal&L=4&L0=Home&L1=Government&L2=EOLWD+Data+and+Statistics&L3=Labor+Market+Information&sid=Elwd&b=terminalcontent&f=dua_economic_data_labor_force_and_unemployment_rates&csid=Elwd
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 1/2010
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: detlmi@detma.org
+        :name: " detlmi@detma.org "
+  :description: Employment and Wage (ES-202) data are derived from reports filed by all employers subject to unemployment compensation laws, both state and federal. Industry employment and payroll information is produced both quarterly and annually for the state, labor market areas, workforce investment areas, cities and towns, and counties. NAICS based employment and wage data are available beginning with the first quarter of 2001.
+  :organization: 
+    :name: EOLWD- Executive Office of Labor and Workforce Development
+    :url: http://www.mass.gov/eolwd
+  :source_type: api
+  :title: Employment and Wages (ES-202), From 2001
+  :url: http://lmi2.detma.org/lmi/lmi_es_a.asp
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: Recent Decisions by the Division of Labor
+  :organization: 
+    :name: EOLWD- Executive Office of Labor and Workforce Development
+    :url: http://www.mass.gov/eolwd
+  :source_type: api
+  :title: Division of Labor Decisions
+  :url: http://www.mass.gov/?pageID=elwdsubtopic&L=5&L0=Home&L1=Government&L2=Departments+and+Divisions+(EOLWD)&L3=Division+of+Labor+Relations&L4=DLR-CERB+Recent+Decisions&sid=Elwd
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: Recent Decisions by the Division of Industrial Accidents
+  :organization: 
+    :name: EOLWD- Executive Office of Labor and Workforce Development
+    :url: http://www.mass.gov/eolwd
+  :source_type: api
+  :title: Industrial Accidents Decisions
+  :url: http://www.mass.gov/?pageID=elwdsubtopic&L=5&L0=Home&L1=Government&L2=EOLWD+Publications&L3=Workers'+Compensation+Publications&L4=Reviewing+Board+Decisions&sid=Elwd
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: "Search for corporations by: Name, ID, Filing Number, Registrant"
+  :organization: 
+    :name: Secretary of the Commonwealth, Corporations Division
+    :url: http://www.sec.state.ma.us/cor/coridx.htm
+  :source_type: api
+  :title: Corporations Database
+  :url: http://corp.sec.state.ma.us/corp/corpsearch/corpsearchinput.asp
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: "Search for trademarks by: Registration, Trademark/Servicemark, Mark Description, Registrant"
+  :organization: 
+    :name: Secretary of the Commonwealth, Corporations Division
+    :url: http://www.sec.state.ma.us/cor/coridx.htm
+  :source_type: api
+  :title: Trademark Database
+  :url: http://corp.sec.state.ma.us/corp/Trademarks/TrademarkSearch.asp
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: Spreadsheets containing current and historical socioeconomic, financial, budget, property tax and assessment data for all 351 cities and towns are available for downloading.
+  :organization: 
+    :name: DOR - Department of Revenue
+    :url: http://www.mass.gov/dor
+  :source_type: api
+  :title: Data Bank Reports
+  :url: http://www.mass.gov/?pageID=dorsubtopic&L=4&L0=Home&L1=Local+Officials&L2=Municipal+Data+and+Financial+Management&L3=Data+Bank+Reports&sid=Ador
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Economic
+  :description: Comprehensive spreadsheets listing Recovery.gov awards for and through state agencies. Also see mass.gov/recovery for information about recovery efforts in the Commonwealth.
+  :organization: 
+    :name: ANF - Massachusetts Recovery and Reinvestment Office
+    :url: http://www.mass.gov/anf
+  :source_type: api
+  :title: Massachusetts Recovery Downloadable Reports
+  :url: http://www.mass.gov/?pageID=stimtopic&L=3&L0=Home&L1=Spending+and+Reports&L2=Downloadable+Reports&sid=Fstim
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+  :description: The Massachusetts Department of Elementary and Secondary Education collects a variety of data from schools and districts in the state, some of which is published as a School or District Profile, directories, reports and people from individual organizations can also be found here.
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: api
+  :title: School/District Profiles
+  :url: http://profiles.doe.mass.edu
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 12/20/09
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form "
+  :description: |-
+    2008 Four-year Graduation rate by district, for all students 
+    Note: Graduation rates are not reported for cohort counts fewer than 6.
+  :formats: 
+    CSV: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_08_4yr_all.csv?version=1
+    HTML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_08_4yr_all.htm?version=1
+    JSON: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_08_4yr_all.json?version=1
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_08_4yr_all.xls?version=1
+    XML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_08_4yr_all.xml?version=1
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: dataset
+  :title: 2008 Four-Year Graduation Rates
+  :url: http://profiles.doe.mass.edu/state_report/gradrates.aspx
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 12/20/09
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form\xC2\xA0 "
+  :description: |-
+    2007 Four-year Graduation rate by district, for all students 
+    Note: Graduation rates are not reported for cohort counts fewer than 6.
+  :formats: 
+    CSV: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.csv?version=1
+    HTML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.htm?version=1
+    JSON: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.json?version=1
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.xls?version=1
+    XML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.xml?version=1
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: dataset
+  :title: 2007 Four-Year Graduation Rates
+  :url: http://profiles.doe.mass.edu/state_report/gradrates.aspx
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 12/20/09
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form\xC2\xA0 "
+  :description: |-
+    2008 Five-year Graduation rate by district, for all students 
+    Note: Graduation rates are not reported for cohort counts fewer than 6.
+  :formats: 
+    CSV: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_5yr_all.csv?version=1
+    HTML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_5yr_all.htm?version=1
+    JSON: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_5yr_all.json?version=1
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_5yr_all.xls?version=1
+    XML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_5yr_all.xml?version=1
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: dataset
+  :title: 2008 Five-Year Graduation Rates
+  :url: http://profiles.doe.mass.edu/state_report/gradrates.aspx
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 01/04/10
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form "
+  :description: |-
+    2009 MCAS Report for Grade 10, by district, for all students 
+    Notes:
+    2006 Rules/Policies Applied
+    	Data Last Updated on October 27, 2009
+    	Grade 10 Science and Technology/Engineering results represent the highest performance level attained by class of 2011 students in grades 9 or 10 in any of the four subjects (Biology, Chemistry, Introductory Physics, and Technology/Engineering). In addition, only students enrolled in Massachusetts since October 2007 are included in state-level results; only students enrolled in the same district since October 2007 are included in district-level results; only students enrolled in the same school since October 2007 are included in school-level results.
+    	Median student growth percentiles (SGP) are not calculated if number of students included in SGP less than 20.
+    	The Massachusetts Department of Elementary and Secondary Education does not rank schools or districts on the basis of MCAS results.
+    	For multi-school districts, school results for districts with more than one school include students enrolled for the entire academic school year. District results include all from the district who were tested.
+    	For single-school districts, MCAS results for districts that only operate a single school include all students tested in the district. It is fairest to compare results from single-school districts to other district results, rather than to school-level results.
+  :formats: 
+    CSV: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.csv?version=1
+    HTML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.htm?version=1
+    JSON: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.json?version=1
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.xls?version=1
+    XML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.xml?version=1
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: dataset
+  :title: MCAS Performance Results
+  :url: http://profiles.doe.mass.edu/state_report/mcas.aspx
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+  :description: The Massachusetts Department of Elementary and Secondary Education collects enrollment data for all students enrolled in public schools. Regular and Special Education enrollment data by grade, gender, race, language and low income status are available for download.
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: api
+  :title: Enrollment Data
+  :url: http://www.doe.mass.edu/infoservices/reports/enroll/default.html
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 01/11/10
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form "
+  :description: |-
+    Enrollment by District/Grade - XLS, XML, CSV, JSON, HTML
+    
+    	Enrollment by District/Grade/Gender - XLS, XML, CSV, JSON, HTML
+    
+    	Enrollment by District/Grade/Race - XLS, XML, CSV, JSON, HTML
+    
+    	Enrollment by School/Grade - XLS, XML, CSV, JSON, HTML
+    
+    	Enrollment by School/Race - XLS, XML, CSV, JSON, HTML
+    
+    	Enrollment by School/Gender - XLS, XML, CSV, JSON, HTML
+    
+    	Enrollment for Special Populations by District - XLS, XML, CSV, JSON, HTML
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: api
+  :title: 2008-2009 Enrollment Data
+  :url: http://www.doe.mass.edu/infoservices/reports/enroll/default.html
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 01/11/10
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form "
+  :description: |-
+    Special Education Enrollment by Disability - XLS, XML, CSV, JSON, HTML
+    
+    	Special Education Enrollment by Age - XLS, XML, CSV, JSON, HTML
+    
+    	Special Education Enrollment by Race/Gender - XLS, XML, CSV, JSON, HTML
+    
+    	Special Education Rates for Special Populations - XLS, XML, CSV, JSON, HTML
+    
+    	Special Education Counts and Rates for Educational Environment - XLS, XML, CSV, JSON, HTML
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: api
+  :title: 2008-2009 Enrollment of Students with Disabilities
+  :url: http://www.doe.mass.edu/infoservices/reports/enroll/default.html
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Education
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 04/22/08
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.doe.mass.edu/contact/qanda.aspx
+        :name: " Comment/Inquiry Form "
+  :description: A joint effort of the Massachusetts Department of Higher Education and the Massachusetts Department of Elementary and Secondary Education, these School-to-College Reports provide postsecondary outcome data on students who graduated from Massachusetts public high schools in 2005 and enrolled in a Massachusetts public college or university in fall 2005. Every public high school with 10 or more graduates enrolling in public colleges receives its own report.
+  :organization: 
+    :name: DESE - Department of Elementary and Secondary Education
+    :url: http://www.doe.mass.edu/
+  :source_type: api
+  :title: Massachusetts School-to-College Reports
+  :url: http://www.doe.mass.edu/research/reports/s2c.html
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Energy
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Updated monthly
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: DOER.Energy@State.MA.US
+        :name: " DOER.Energy@State.MA.US "
+  :description: Data tracking the migration of electric power customers in Massachusetts from incumbent generation sources to competitive generation sources. Notifications on these updates are provided on the state RSS feed, and at twitter.com/MassDOER.
+  :organization: 
+    :name: DOER - Department of Energy Resources
+    :url: http://www.mass.gov/?pageID=eoeeaagencylanding&L=5&L0=Home&L1=Grants+&+Technical+Assistance&L2=Guidance+&+Technical+Assistance&L3=Agencies+and+Divisions&L4=Department+of+Energy+Resources+(DOER)&sid=Eoeea
+  :source_type: api
+  :title: Electric Customer Migration Data
+  :url: http://www.mass.gov/?pageID=eoeeamodulechunk&L=5&L0=Home&L1=Grants+&+Technical+Assistance&L2=Guidance+&+Technical+Assistance&L3=Agencies+and+Divisions&L4=Department+of+Energy+Resources+(DOER)&sid=Eoeea&b=terminalcontent&f=doer_electric_deregulation_migration&csid=Eoeea
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Energy
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Updated weekly
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: DOER.Energy@State.MA.US
+        :name: " DOER.Energy@State.MA.US "
+  :description: Follow energy market data including prices for heating (heating oil, propane & electricity) and automobile fuels, as well as alternative fuels such as Compressed Natural Gas for vehicles. Notifications on these updates are provided on the state RSS feed, and at twitter.com/MassDOER.
+  :organization: 
+    :name: DOER - Department of Energy Resources
+    :url: http://www.mass.gov/?pageID=eoeeaagencylanding&L=5&L0=Home&L1=Grants+&+Technical+Assistance&L2=Guidance+&+Technical+Assistance&L3=Agencies+and+Divisions&L4=Department+of+Energy+Resources+(DOER)&sid=Eoeea
+  :source_type: api
+  :title: Home & Auto Fuel Price Information
+  :url: http://www.mass.gov/?pageID=eoeeasubtopic&L=3&L0=Home&L1=Energy,+Utilities+&+Clean+Technologies&L2=Home+&+Auto+Fuel+Price+Information&sid=Eoeea
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 11/12/2009
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: Linda.Hutchins@state.ma.us
+        :name: " Linda Hutchins 617-626-1384 "
+  :description: |-
+    DCR's Office of Water Resources maintains a precipitation database that is updated monthly using reports from our observers and cooperative agencies. Precipitation values in the database are totals for each station for each month. 
+    Gauge (Station) Locations : XLS, CSV, XML, HTML, JSON
+  :formats: 
+    CSV: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.csv?version=1
+    HTML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.htm?version=1
+    JSON: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.json?version=1
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.xls?version=1
+    XML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820590/dbdata.xml?version=1
+  :organization: 
+    :name: DCR- Department of Conservation and Recreation
+    :url: http://www.mass.gov/dcr
+  :source_type: dataset
+  :title: Precipitation Database
+  :url: http://www.mass.gov/dcr/waterSupply/rainfall/precipdb.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Updated hourly
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://www.mass.gov/dep/air/aq_ask.htm
+        :name: " MassAir Questions and Feedback"
+  :description: MassDEP monitors air quality for a variety of pollutants at sites around the state. Select the Trends tab to either graph data or download it or the Data tab to download by pollutant and month.
+  :organization: 
+    :name: DEP - Department of Environmental Protection
+    :url: http://www.mass.gov/dep
+  :source_type: api
+  :title: Air Quality and Monitoring (MassAir)
+  :url: http://public.dep.state.ma.us/MassAir/
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Updated periodically
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: Jane.Rose@state.ma.us
+        :name: " Jane.Rose@state.ma.us "
+  :description: MassDEP monitors mercury levels in the edible tissues of freshwater fish. Sediment and water quality of the lakes where fish have been studied and individual fish tissue mercury concentrations are available.
+  :organization: 
+    :name: DEP - Department of Environmental Protection
+    :url: http://www.mass.gov/dep
+  :source_type: api
+  :title: Fish Mercury Monitoring Program
+  :url: http://public.dep.state.ma.us/fish/
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+  :description: |-
+    Asbestos Projects Lookup
+    	Hazardous Waste Sites Lookup
+    	Laboratories Certified by MassDEP
+    	Mercury Product Recycling Drop-Off Locations
+    	Wetlands Notices of Intent
+    	Municipal Waste Combustor Facility and Trend Reports
+    	Underground Storage Tank Lookup
+    	Massachusetts Oil & Hazardous Materials List
+  :organization: 
+    :name: DEP - Department of Environmental Protection
+    :url: http://www.mass.gov/dep
+  :source_type: api
+  :title: MassDEP Databases
+  :url: http://www.mass.gov/dep/service/compliance/searchde.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: January 2010
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: Brian.Holdridge@state.ma.us
+        :name: " Brian.Holdridge@state.ma.us "
+  :description: Solid Waste FacilitiesMaster List Readme
+  :formats: 
+    TXT: 
+      :href: https://wiki.state.ma.ushttp://www.mass.gov/dep/recycle/solid/allsites.txt
+    XLS: 
+      :href: https://wiki.state.ma.ushttp://www.mass.gov/dep/recycle/solid/allsites.xls
+  :organization: 
+    :name: DEP - Department of Environmental Protection
+    :url: http://www.mass.gov/dep
+  :source_type: dataset
+  :title: Landfills, Transfer Stations and Compost Sites
+  :url: http://www.mass.gov/dep/recycle/solid/swfacil.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Updated annually
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: mass.wildlife@state.ma.us
+        :name: " mass.wildlife@state.ma.us "
+  :description: MassWildlife maintains records of white-tailed deer, black bear and wild turkey harvests. Yearly and historical records are available.
+  :organization: 
+    :name: DFG - Department of Fish and Game
+    :url: http://www.mass.gov/dfwele/index.htm
+  :source_type: api
+  :title: Hunting Harvest Information
+  :url: http://www.mass.gov/dfwele/dfw/recreation/hunting/hunting_harvests.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Environmental
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Updated periodically
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: mass.wildlife@state.ma.us
+        :name: " mass.wildlife@state.ma.us "
+  :description: In addition to the comprehensive Forest Inventory that occurred across all DFW lands, individual harvest sites are intensively monitored for plant species composition prior to and after logging activities so that harvest goals for regeneration of particular tree species and structural habitat conditions can be assessed. DFW is also working with EOEA and DCR on long term environmental monitoring on harvested lands and forest reserve lands. Data are available in a number of formats, and are updated when monitoring surveys have been completed.
+  :organization: 
+    :name: DFW - Division of Fisheries and Wildlife
+    :url: http://www.mass.gov/dfwele/dfw
+  :source_type: api
+  :title: DFW Biomonitoring Data
+  :url: https://wiki.state.ma.us/confluence/display/data/DFW+Biomonitoring+Data
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Financial
+  :description: Resources related to the Commonwealth of Massachusetts annual budget including current and archived budget documents, revenue projections and other related materials.
+  :organization: 
+    :name: ANF- Executive Office for Administration and Finance
+    :url: http://www.mass.gov/anf
+  :source_type: api
+  :title: State Budgets
+  :url: http://www.mass.gov/?pageID=afsubtopic&L=3&L0=Home&L1=Budget,+Taxes+&+Procurement&L2=State+Budget&sid=Eoaf
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Financial
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 1/22/09
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: databank@dor.state.ma.us
+        :name: " databank@dor.state.ma.us "
+  :description: The Municipal Data Bank collects, analyzes and distributes financial, demographic and economic data on Massachusetts cities and towns. Financial data comes from a series of reports that municipalities submit annually to the Division of Local Services. Demographic and economic data is collected from other state and federal agencies. The Data Bank develops and maintains systems to collect and distribute the information, assists users in interpretation and use, participates in research projects with other agencies and organizations, and distributes reports which summarize data analyses.
+  :organization: 
+    :name: DOR - Department of Revenue
+    :url: http://www.mass.gov/dor
+  :source_type: api
+  :title: Municipal Data Bank
+  :url: http://www.mass.gov/?pageID=dorsubtopic&L=4&L0=Home&L1=Local+Officials&L2=Municipal+Data+and+Financial+Management&L3=Data+Bank+Reports&sid=Ador
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Financial
+  :description: "The Electronic Filing System (EFS) is a searchable campaign finance database containing activity by candidates for: statewide office, Governor's Council, the Legislature, county offices, mayor, city council and alderman in the 5 cities of the Commonwealth with populations of 100,000 or more, and mayor in the 23 cities with populations of 40,000 to 100,000; as well as state and local political party committees, political action committees and ballot question committees."
+  :organization: 
+    :name: OCPF - Office of Campaign and Political Finance
+    :url: http://www.mass.gov/ocpf
+  :source_type: api
+  :title: Electronic Filing System (EFS)
+  :url: http://www.efs.cpf.state.ma.us/default.aspx
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Financial
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 6/7/2010
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: comptroller.info@state.ma.us?subject=CommonCents
+        :name: " comptroller.info@state.ma.us "
+  :description: Spending on Commonwealth Employees - How many employees work for the Commonwealth?
+  :organization: 
+    :name: OSC- Office of the State Comptroller
+    :url: http://www.mass.gov/?pageID=oschomepage&L=1&sid=Aosc&L0=Home
+  :source_type: api
+  :title: Common Cents
+  :url: https://massfinance.state.ma.us/CommonCents/commonEmployeeResult.asp?pg=6&cat=employee&num=1
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: Datalayers are continually updated or added. See http://www.mass.gov/mgis for update information.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: Aleda.Freeman@state.ma.us
+        :name: " Freeman, Aleda\n\
+          617-626-1193 "
+  :description: |-
+    Support of XML-based requests via the Commonwealth's Service Gateway 
+    This is the home of the MassGIS GeoServer-based geospatial web services - open services available to the public as well as government users. These are OpenGeospatial Consortium (OGC) standard WMS (web map service), WFS (web feature service), and WCS (web coverage service) services. This site contains information on accessing, using and developing against MassGIS-maintained "Web Map Service" and "Web Feature Service" services. The services also support the OGC Styled Layer Descriptor (SLD) standard. Currently 867 datalayers are available, from landuse and zoning to wetlands and aerial photography. Get maps or information in response to queries (in URL or XML format) in a variety of output formats and almost 4,000 different map projections. Over a dozen state agencies have written application against these services which currently respond to 22,000 requests/day.
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: api
+  :title: WMS, WFS, and Geocoding XML-based requestsGeospatial Web Services
+  :url: https://wiki.state.ma.us/confluence/display/data/WMS,+WFS+and+Geocoding+-+XML+access
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: June 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: The Land Use (2005) datalayer is a Massachusetts statewide, seamless digital dataset of land cover / land use, created using semi-automated methods, and based on 0.5 meter resolution digital ortho imagery captured in April 2005.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Land Use (2005)
+  :url: http://www.mass.gov/mgis/lus2005.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: April 2008.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: |-
+    In spring 2008, the U.S. Geological Survey, as part of its Boston 133 Cities Urban Area mapping program, contracted for true-color imagery covering the metropolitan Boston area and beyond. Image type for the entire region (more than 1.7 million acres) is 24-bit, 3-band (red, green, blue) natural color. Each band has pixel values ranging 0-255. Pixel resolution is 30 cm., or approximately one foot. 
+     
+    Additionally, 30 municipalities participated in the Boston Upgrade of the USGS project; these cities and towns contributed funding for separate flights to produce 4-band (red, green, blue, near-infrared) imagery. Pixel resolution for these images is 15 centimeters (approximately 6 inches). 
+     
+    This digital orthoimagery can serve a variety of purposes, from general planning, to field reference for spatial analysis, to a tool for data development and revision of vector maps. It can also serve as a reference layer or basemap for myriad applications inside geographic information system (GIS) software.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: USGS Color Ortho Imagery (2008)
+  :url: http://www.mass.gov/mgis/colororthos2008.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: April 2007.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: The DEP Wetlands datalayer comprises two feature types, polygons and arcs (lines). The attribute codes in the polygon layer describe different types of wetland environments and the arc attributes describe line types based on adjacent polygon types or arcs defined as hydrologic connections.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: DEP Wetlands (1:12,000)
+  :url: http://www.mass.gov/mgis/wetdep.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: December 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: The protected and recreational open space datalayer contains the boundaries of conservation lands and outdoor recreational facilities in Massachusetts. The associated database contains relevant information about each parcel, including ownership, level of protection, public accessibility, assessor's map and lot numbers, and related legal interests held on the land, including conservation restrictions. Conservation and outdoor recreational facilities owned by federal, state, county, municipal, and nonprofit enterprises are included in this datalayer. Not all lands in this layer are protected in perpetuity, though nearly all have at least some level of protection.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Protected and Recreational OpenSpace
+  :url: http://www.mass.gov/mgis/osp.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: September 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: This political boundary datalayer has been created from latitude and longitude coordinates found in the 68-volume Harbor and Lands Commission Town Boundary Atlas. This Atlas series, and updates since it was published, describes the legal boundary for each of the 351 municipalities in Massachusetts. These coordinates were recorded from surveys of the location of each boundary marker around the periphery of each community. Each survey was tied into higher order monumented survey control points. The Atlases also include detailed descriptions of each community's boundary and location maps for each of the original boundary marker locations. The original surveys were conducted in the 1890s. The Atlas series was published in the early 1900s and has since been updated by the Survey Section of the Massachusetts Highway Department with changes as they are approved by the legislature.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Community Boundaries (Towns) from Survey Points
+  :url: http://www.mass.gov/mgis/townssurvey.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: October 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: This layer is the official state-maintained street transportation dataset available from MassGIS and represents local and major roadways, including designations for Interstate, U.S. and State highways.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Executive Office of Transportation - Office of Transportation Planning Roads
+  :url: http://www.mass.gov/mgis/eotroads.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: June 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: Wellhead protection areas are important for protecting the recharge area around public water supply (PWS) groundwater sources. A Zone II is a wellhead protection area that has been determined by hydro-geologic modeling and approved by the Department of Environmental Protection's (DEP) Drinking Water Program (DWP). In cases where hydro-geologic modeling studies have not been performed and there is no approved Zone II, an Interim Wellhead Protection Area (IWPA) is established based on DEP DWP well pumping rates or default values. Certain land uses may be either prohibited or restricted in both approved (Zone II) and interim (IWPA) wellhead protection areas. For MassDEP's regulatory wording of these zones please see Water Supply Protection Area Definitions.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: DEP Wellhead Protection Areas (Zone II, IWPA)
+  :url: http://www.mass.gov/mgis/ziis.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: June 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: The Public Water Supply (PWS) datalayer contains the locations of public community surface and groundwater supply sources and public non-community supply sources as defined in 310 CMR 22.00. The public water supply systems represented in this datalayer are based primarily on information in the DEP's Water Quality Testing System (WQTS) database. The WQTS database is the Department's central database for tracking water supply data. The PWS datalayer also contains the locations of proposed wells that have a defined DEP approved wellhead protection area (Zone IIs). Proposed sources are not currently tracked in WQTS.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Public Water Supplies
+  :url: http://www.mass.gov/mgis/pws.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: August 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: This point datalayer shows the location of 82 acute care hospitals in Massachusetts. Acute care hospitals are those licensed under MGL Chapter 111, section 51 and which contain a majority of medical-surgical, pediatric, obstetric, and maternity beds, as defined by the Massachusetts Department of Public Health (DPH). The features in this layer are based on database information provided to MassGIS from the DPH, Office of Emergency Medical Services (OEMS). The August 2009 update of this dataset limited the features to include only acute care hospitals (and removed other "specialty hospitals"); it replaces the layer formerly known as "Hospitals and Emergency Room Facilities." The August 2009 update kept the ER status data and also added attributes to track the status of trauma centers and teaching hospitals.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Acute Care Hospitals
+  :url: http://www.mass.gov/mgis/hospitals.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: April 2009.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: This point datalayer shows the locations of schools in Massachusetts. Schools appearing in this layer are those attended by students in pre-kindergarten through high school. Categories of schools include public, private, charter, collaborative programs, and approved special education. This data was originally developed by the Massachusetts Department of Environmental Protection's (DEP) GIS Program based on database information provided by the Massachusetts Department of Education (DOE). The update published in April 2009 was based on listings MassGIS obtained from the DOE as of February 9, 2009.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Schools
+  :url: http://www.mass.gov/mgis/schools.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Geographic
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: June 2007.
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: michael.trust@state.ma.us
+        :name: " Trust, Michael\n\
+          617-626-1193 "
+  :description: |-
+    In continuing a policy of promoting renewable and clean energy sources, the Executive Office of Energy and Environmental Affairs (EOEEA) has put considerable effort into researching development sites for wind-based energy production. A key datalayer in this initiative is a modeled representation of wind velocities in the Commonwealth of Massachusetts. The original wind resource data were developed by Truewind Solutions, LLC under contract to AWS Scientific, Inc. as part of a project jointly funded by the Connecticut Clean Energy Fund, the Massachusetts Technology Collaborative (MTC), and Northeast Utilities System. This data has undergone further processing to make it more suitable for analyses that utilize other geographic datalayers maintained by MassGIS. 
+     
+    MassGIS distributes four raster layers covering all of New England and depicting mean sustained wind speeds calculated at heights of 30, 50, 70 and 100 meters above the surface.
+  :formats: 
+    Geospatial Web Services: 
+      :href: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+  :organization: 
+    :name: MassGIS- Office of Geographic and Environmental Information
+    :url: http://www.mass.gov/mgis/
+  :source_type: dataset
+  :title: Modeled Wind Speed Grids
+  :url: http://www.mass.gov/mgis/windspeed.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: The system was built to provide the public, researchers, local health officials and others with electronic data at the community level (and below) to empower local decision making.
+  :organization: 
+    :name: DPH- Department of Public Health
+    :url: http://www.mass.gov/dph
+  :source_type: api
+  :title: Massachusetts Environmental Public Health Tracking (MA EPHT) Program
+  :url: http://matracking.ehs.state.ma.us/
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: Regional environmental health reports and studies
+  :organization: 
+    :name: BEH- Bureau of Environmental Health
+    :url: http://www.mass.gov/dph/environmental_health
+  :source_type: api
+  :title: Environmental Health Investigations
+  :url: http://www.mass.gov/?pageID=eohhs2subtopic&L=5&L0=Home&L1=Consumer&L2=Community+Health+and+Safety&L3=Environmental+Health&L4=Environmental+Health+Investigations&sid=Eeohhs2
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: Birth data, death data and population reports
+  :organization: 
+    :name: DPH- Department of Public Health
+    :url: http://www.mass.gov/dph
+  :source_type: api
+  :title: Population Health Statistics
+  :url: http://www.mass.gov/?pageID=eohhs2subtopic&L=4&L0=Home&L1=Consumer&L2=Community+Health+and+Safety&L3=Population+Health+Statistics&sid=Eeohhs2
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: Health Care Delivery System Publications and Analysis
+  :organization: 
+    :name: DHCFP - Division of Health Care Finance & Policy
+    :url: http://www.mass.gov/dhcfp
+  :source_type: api
+  :title: DHCFP Publications and Analyses
+  :url: http://www.mass.gov/?pageID=eohhs2terminal&L=4&L0=Home&L1=Researcher&L2=Physical+Health+and+Treatment&L3=Health+Care+Delivery+System&sid=Eeohhs2&b=terminalcontent&f=dhcfp_researcher_all_dhcfp_publications&csid=Eeohhs2/#rand
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: "Health Care Delivery System Data Resources including: Acute Hospital Case Mix Databases, Childbirth: Services and Utilization Rates, Hospital and Community Health Center Cost Report Databases, Hospital Financial Performance Information, Household Survey on Insurance Status Database, Hospital Summary Utilization Data and Long Term Care Databases"
+  :organization: 
+    :name: DHCFP - Division of Health Care Finance & Policy
+    :url: http://www.mass.gov/dhcfp
+  :source_type: api
+  :title: DHCFP Data Resources
+  :url: http://www.mass.gov/?pageID=eohhs2subtopic&L=5&L0=Home&L1=Researcher&L2=Physical+Health+and+Treatment&L3=Health+Care+Delivery+System&L4=DHCFP+Data+Resources&sid=Eeohhs2
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: Tables of childhood lead screening percentages, incidence by blood lead levels, and childhood incidence rates for elevated and poisoned blood lead levels, based on reported tests.
+  :organization: 
+    :name: DPH- Department of Public Health
+    :url: http://www.mass.gov/dph
+  :source_type: api
+  :title: Childhood Lead Poisoning Screening and Incidence Statistics by Community
+  :url: http://www.mass.gov/?pageID=eohhs2terminal&L=5&L0=Home&L1=Researcher&L2=Community+Health+and+Safety&L3=Environmental+Health&L4=Lead+Research+and+Statistics&sid=Eeohhs2&b=terminalcontent&f=dph_environmental_lead_r_screen_stats&csid=Eeohhs2
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: Reporting data and review statistics
+  :organization: 
+    :name: OPP - Office of Patient Protection
+    :url: http://www.mass.gov/dph/opp
+  :source_type: api
+  :title: Managed Care Protections and Grievances Reports and Statistics
+  :url: http://www.mass.gov/?pageID=eohhs2subtopic&L=4&L0=Home&L1=Researcher&L2=Insurance+(including+MassHealth)&L3=Managed+Care+Protections+and+Grievances&sid=Eeohhs2
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Health
+  :description: Health demographics by municipality
+  :formats: 
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/83820592/opensource+masschip+data.xls?version=1
+  :organization: 
+    :name: DPH- Department of Public Health
+    :url: http://www.mass.gov/dph
+  :source_type: dataset
+  :title: MassCHIP
+  :url: http://www.mass.gov/dph/masschip
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Housing
+  :description: Census Bureau Construction Statistics, 2000-2008
+  :organization: 
+    :name: Massachusetts State Data Center at the UMass Donahue Institute
+    :url: http://www.massbenchmarks.org/statedata/statedata.htm
+  :source_type: api
+  :title: Building permit data
+  :url: http://www.massbenchmarks.org/statedata/data/Building08.xls
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Housing
+  :description: Census Bureau 2000
+  :organization: 
+    :name: Massachusetts State Data Center at the UMass Donahue Institute
+    :url: http://www.massbenchmarks.org/statedata/statedata.htm
+  :source_type: api
+  :title: Housing units by tenure and vacancy status
+  :url: http://www.massbenchmarks.org/statedata/data/hupopulation.xls
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Licensing
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: N/A - Varies by Board
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: http://license.reg.state.ma.us/public/dpl_contact_info/dpl_contact_info.asp
+        :name: " Contact DPL "
+  :description: |-
+    Data and information for the various professions licensed by the Boards of:
+    Allied Health Professionals
+    	Allied Mental Health and Human Services Professionals
+    	Architects
+    	Barbers
+    	Certified Health Officer
+    	Chiropractors
+    	Cosmetologists
+    	Dietitians and Nutritionists
+    	Dispensing Opticians
+    	Electricians and Alarm System Installers
+    	Electrologists
+    	Funeral Directors, Embalmers and Establishments
+    	Hearing Instrument Specialists
+    	Home Inspectors
+    	Landscape Architects
+    	Massage Therapy
+    	Operators of Drinking Water Supply Facilities
+    	Optometry
+    	Plumbers and Gas Fitters
+    	Podiatry
+    	Professional Engineers and Professional Land Surveyors
+    	Public Accountancy
+    	Psychologists
+    	Radio and Television Technicians
+    	Real Estate Appraisers
+    	Real Estate Brokers & Salespersons
+    	Sanitarians
+    	Sheet Metal Workers
+    	Social Workers
+    	Speech-Language Pathologists and Audiologists
+    	
+    Veterinary Medicine
+  :organization: 
+    :name: DPL- Division of Professional Licensure
+    :url: http://www.mass.gov/dpl
+  :source_type: api
+  :title: Web Site
+  :url: http://www.mass.gov/dpl
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Licensing
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: June 2009
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: 
+        :email: Stephen.Hallem@state.ma.us
+        :name: " Hallem, Stephen "
+  :description: Annual list of registered well drillers (July 1, 2008-June 30, 2009). In Massachusetts, only registered drillers can drill wells.
+  :formats: 
+    PDF: 
+      :href: https://wiki.state.ma.ushttp://www.mass.gov/dep/water/drinking/drillers.pdf
+    XLS: 
+      :href: https://wiki.state.ma.ushttp://www.mass.gov/dep/water/drinking/drillers.xls
+  :organization: 
+    :name: DEP - Division of Environmental Protection
+    :url: http://www.mass.gov/dep
+  :source_type: dataset
+  :title: Licensed Welldrillers
+  :url: http://www.mass.gov/dep/water/drinking/welldril.htm
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Municipal
+  :description: Commonwealth Communities is your resource for finding information on the 351 cities and towns in Massachusetts provided by state agencies and official city/town websites.
+  :organization: 
+    :name: ITD - Information Technolofy Division
+    :url: http://mass.gov/itd
+  :source_type: api
+  :title: Commonwealth Communities
+  :url: http://www.mass.gov/?pageID=mg2terminal&L=3&L0=Home&L1=State+Government&L2=Local+Government&sid=massgov2&b=terminalcontent&f=cc_landing&csid=massgov2
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Population
+  :description: The Massachusetts Archives holds Massachusetts vital records covering the years 1841-1915. The vital records cover births, marriages, and deaths that occurred in Massachusetts. The Archives not only holds the records, but also indices to these records.
+  :organization: 
+    :name: Massachusetts Archives
+    :url: http://www.sec.state.ma.us/index.htm
+  :source_type: api
+  :title: Vital Records (1841-1910)
+  :url: http://www.sec.state.ma.us/arc/arcsrch/VitalRecordsSearchContents.html
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Population
+  :description: State and national office election results and statistics about registered voters in individual communities.
+  :organization: 
+    :name: State Library of Massachusetts
+    :url: http://www.mass.gov/?pageID=afagencylanding&L=4&L0=Home&L1=Research+&+Technology&L2=Oversight+Agencies&L3=The+State+Library+of+Massachusetts&sid=Eoaf
+  :source_type: api
+  :title: Massachusetts Election Statistics (1890-2004)
+  :url: http://www.mass.gov/?pageID=afterminal&L=5&L0=Home&L1=Research+&+Technology&L2=Government+Data+&+Documents&L3=State+Documents+&+Resources&L4=State+Documents+Online&sid=Eoaf&b=terminalcontent&f=lib_ourorganization_governmentdocs_electionstats&csid=Eoaf
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Public Safety
+  :description: Hate Crime and other Crime Reports
+  :organization: 
+    :name: EOPSS- Executive Office of Public Safety and Security
+    :url: http://www.mass.gov/eopss
+  :source_type: api
+  :title: Crime Reports
+  :url: http://www.mass.gov/?pageID=eopsterminal&L=3&L0=Home&L1=Law+Enforcement+&+Criminal+Justice&L2=Crime+Statistics+&+Research&sid=Eeops&b=terminalcontent&f=msp_crime_reporting_msp_crime_reporting_available_reports&csid=Eeops
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Public Safety
+  :description: Prison population and recidivism data
+  :organization: 
+    :name: DOC - Department of Correction
+    :url: http://mass.gov/doc
+  :source_type: api
+  :title: Research Data
+  :url: http://www.mass.gov/?pageID=eopssubtopic&L=4&L0=Home&L1=Law+Enforcement+&+Criminal+Justice&L2=Prisons&L3=Research+Data&sid=Eeops
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Technology
+  :description: Web traffic reports from January 2007 to present for sites hosted by Mass.Gov. A compressed archive of stats from September 2004 to December 2006 is also available for download.
+  :formats: 
+    HTML: 
+      :href: https://wiki.state.ma.ushttp://www.mass.gov/itd/massgov/bandwidth
+  :organization: 
+    :name: ITD
+    :url: http://mass.gov/itd
+  :source_type: dataset
+  :title: Mass.Gov Website Traffic Reports
+  :url: http://www.mass.gov/itd/massgov/bandwidth
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Technology
+    "1": 
+      :description: last modified
+      :label: modified
+      :type: string
+      :value: 01/07/10
+    "2": 
+      :description: The 'owner' for the current data
+      :label: contact
+      :type: string
+      :value: true
+  :description: ""
+  :formats: 
+    CSV: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.csv?version=1
+    HTML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.htm?version=1
+    JSON: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.json?version=1
+    XLS: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.xls?version=1
+    XML: 
+      :href: https://wiki.state.ma.us/confluence/download/attachments/98730287/sam_list.xml?version=1
+  :organization: 
+    :name: ITD
+    :url: http://mass.gov/itd
+  :source_type: dataset
+  :title: Agency Service Account Manager List
+  :url: http://www.mass.gov/?pageID=afmodulechunk&L=4&L0=Home&L1=Research+&+Technology&L2=Oversight+Agencies&L3=Information+Technology+Division&sid=Eoaf&b=terminalcontent&f=itd_services_cust_support_samlist_by_eo&csid=Eoaf
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Transportation
+  :description: The information and links found here are meant to serve as resources for developers interested in working with real-time and static transportation data made available by the Executive Office of Transportation and its family of agencies.
+  :organization: 
+    :name: MassDOT - Massachusetts Department of Transportation
+    :url: http://www.massdot.state.ma.us
+  :source_type: api
+  :title: Transit Schedules, Construction Events, Branch Wait Times, etc.
+  :url: http://www.mass.gov/eot/developers
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Transportation
+  :description: This database provides information on people who are bicycling, walking, jogging, skating, using wheelchairs, and pushing baby carriages---everyone moving on land without motor vehicles. Most of the data were obtained from counts performed in the Boston region.
+  :organization: 
+    :name: Boston Region Metropolitan Planning Organization (external site)
+    :url: http://www.bostonmpo.org
+  :source_type: api
+  :title: Bicycle / Pedestrian Database
+  :url: http://www.bostonmpo.org/bostonmpo/3_programs/5_bicycle_pedestrian/database.html
+- :custom: 
+    "0": 
+      :description: data tags
+      :label: tags
+      :type: string
+      :value: Transportation
+  :description: Traffic, GIS and transit data for the Boston region
+  :organization: 
+    :name: Boston Region Metropolitan Planning Organization (external site)
+    :url: http://www.bostonmpo.org
+  :source_type: api
+  :title: Data Resources
+  :url: http://www.ctps.org/bostonmpo/4_resources/3_data_resources/data.html

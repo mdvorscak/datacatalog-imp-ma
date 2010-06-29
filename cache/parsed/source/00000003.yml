@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Transportation
+:description: The information and links found here are meant to serve as resources for developers interested in working with real-time and static transportation data made available by the Executive Office of Transportation and its family of agencies.
+:downloads: 
+:organization: 
+  :name: MassDOT - Massachusetts Department of Transportation
+  :url: http://www.massdot.state.ma.us
+:source_type: api
+:title: Transit Schedules, Construction Events, Branch Wait Times, etc.
+:url: http://www.mass.gov/eot/developers

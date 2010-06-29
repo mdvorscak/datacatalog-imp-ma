@@ -1,0 +1,8 @@
+--- 
+:description: Labor force and unemployment 				data is estimated each month. Information is produced on labor force, employment, 				unemployment, and unemployment rates for the United States, the Commonwealth and 				for each Labor Market Area (LMA), Workforce Investment Area (WIA), City and Town, 				and County in Massachusetts
+:organization: 
+  :home_url: http://www.mass.gov/eolwd
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+:source_type: api
+:title: Labor Force and Unemployment Data
+:url: http://lmi2.detma.org/lmi/lmi_lur_a.asp

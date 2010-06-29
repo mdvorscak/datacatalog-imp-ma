@@ -1,0 +1,25 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+:description: |-
+  Asbestos Projects Lookup
+  	Hazardous Waste Sites Lookup
+  	Laboratories Certified by MassDEP
+  	Mercury Product Recycling Drop-Off Locations
+  	Wetlands Notices of Intent
+  	Municipal Waste Combustor Facility and Trend Reports
+  	Underground Storage Tank Lookup
+  	Massachusetts Oil & Hazardous Materials List
+:downloads: 
+:organization: 
+  :name: DEP - Department of Environmental Protection
+  :url: http://www.mass.gov/dep
+:source_type: api
+:title: MassDEP Databases
+:url: http://www.mass.gov/dep/service/compliance/searchde.htm

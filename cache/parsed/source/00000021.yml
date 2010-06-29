@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: Regional environmental health reports and studies
+:downloads: 
+:organization: 
+  :name: BEH- Bureau of Environmental Health
+  :url: http://www.mass.gov/dph/environmental_health
+:source_type: api
+:title: Environmental Health Investigations
+:url: http://www.mass.gov/?pageID=eohhs2subtopic&L=5&L0=Home&L1=Consumer&L2=Community+Health+and+Safety&L3=Environmental+Health&L4=Environmental+Health+Investigations&sid=Eeohhs2

@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Population
+:description: State and national office election results and statistics about registered voters in individual communities.
+:downloads: 
+:organization: 
+  :name: State Library of Massachusetts
+  :url: http://www.mass.gov/?pageID=afagencylanding&L=4&L0=Home&L1=Research+&+Technology&L2=Oversight+Agencies&L3=The+State+Library+of+Massachusetts&sid=Eoaf
+:source_type: api
+:title: Massachusetts Election Statistics (1890-2004)
+:url: http://www.mass.gov/?pageID=afterminal&L=5&L0=Home&L1=Research+&+Technology&L2=Government+Data+&+Documents&L3=State+Documents+&+Resources&L4=State+Documents+Online&sid=Eoaf&b=terminalcontent&f=lib_ourorganization_governmentdocs_electionstats&csid=Eoaf

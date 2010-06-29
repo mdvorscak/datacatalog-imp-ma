@@ -1,0 +1,19 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: |-
+  Economic Data including: 
+  Employment and Jobs, Labor Force And Unemployment Rates, Occupations, Massachusetts Employment Projections, Employer Locator, Job Vacancy Survey, Business Hiring Expectations, Unemployment Insurance Claims, Labor Market Information Publications
+:downloads: 
+:organization: 
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+  :url: http://www.mass.gov/eolwd
+:source_type: api
+:title: Employment/Jobs, Labor Force, Unemployment Rates, Occupations, Massachusetts Employment Projections, etc.
+:url: http://www.mass.gov/?pageID=elwdtopic&L=3&L0=Home&L1=Government&L2=EOLWD+Data+and+Statistics&sid=Elwd

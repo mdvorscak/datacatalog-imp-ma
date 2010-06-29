@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Updated hourly
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://www.mass.gov/dep/air/aq_ask.htm
+      :name: " MassAir Questions and Feedback"
+:description: MassDEP monitors air quality for a variety of pollutants at sites around the state. Select the Trends tab to either graph data or download it or the Data tab to download by pollutant and month.
+:downloads: 
+:organization: 
+  :name: DEP - Department of Environmental Protection
+  :url: http://www.mass.gov/dep
+:source_type: api
+:title: Air Quality and Monitoring (MassAir)
+:url: http://public.dep.state.ma.us/MassAir/

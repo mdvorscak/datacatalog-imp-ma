@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Population
+:description: The Massachusetts Archives holds Massachusetts vital records covering the years 1841-1915. The vital records cover births, marriages, and deaths that occurred in Massachusetts. The Archives not only holds the records, but also indices to these records.
+:downloads: 
+:organization: 
+  :name: Massachusetts Archives
+  :url: http://www.sec.state.ma.us/index.htm
+:source_type: api
+:title: Vital Records (1841-1910)
+:url: http://www.sec.state.ma.us/arc/arcsrch/VitalRecordsSearchContents.html

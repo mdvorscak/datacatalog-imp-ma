@@ -1,0 +1,41 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 12/20/09
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://www.doe.mass.edu/contact/qanda.aspx
+      :name: " Comment/Inquiry Form\xC2\xA0 "
+:description: |-
+  2007 Four-year Graduation rate by district, for all students 
+  Note: Graduation rates are not reported for cohort counts fewer than 6.
+:downloads: 
+- :format: XML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.xml?version=1
+- :format: HTML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.htm?version=1
+- :format: CSV
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.csv?version=1
+- :format: XLS
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.xls?version=1
+- :format: JSON
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/gradrates_07_4yr_all.json?version=1
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: dataset
+:title: 2007 Four-Year Graduation Rates
+:url: http://profiles.doe.mass.edu/state_report/gradrates.aspx

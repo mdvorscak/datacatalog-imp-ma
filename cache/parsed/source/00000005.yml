@@ -1,0 +1,19 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Technology
+:description: Web traffic reports from January 2007 to present for sites hosted by Mass.Gov. A compressed archive of stats from September 2004 to December 2006 is also available for download.
+:downloads: 
+- :format: HTML
+  :url: https://wiki.state.ma.ushttp://www.mass.gov/itd/massgov/bandwidth
+:organization: 
+  :name: ITD
+  :url: http://mass.gov/itd
+:source_type: dataset
+:title: Mass.Gov Website Traffic Reports
+:url: http://www.mass.gov/itd/massgov/bandwidth

@@ -1,0 +1,8 @@
+--- 
+:description: Employment and Wage (ES-202) data are derived from reports filed by all employers subject to unemployment compensation laws, both state and federal. Industry employment and payroll information is produced both quarterly and annually for the state, labor market areas, workforce investment areas, cities and towns, and counties. NAICS based employment and wage data are available beginning with the first quarter of 2001.
+:organization: 
+  :home_url: http://www.mass.gov/eolwd
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+:source_type: api
+:title: Employment and Wages (ES-202), From 2001
+:url: http://lmi2.detma.org/lmi/lmi_es_a.asp

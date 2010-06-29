@@ -1,0 +1,19 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: Health demographics by municipality
+:downloads: 
+- :format: XLS
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820592/opensource+masschip+data.xls?version=1
+:organization: 
+  :name: DPH- Department of Public Health
+  :url: http://www.mass.gov/dph
+:source_type: dataset
+:title: MassCHIP
+:url: http://www.mass.gov/dph/masschip

@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: "Health Care Delivery System Data Resources including: Acute Hospital Case Mix Databases, Childbirth: Services and Utilization Rates, Hospital and Community Health Center Cost Report Databases, Hospital Financial Performance Information, Household Survey on Insurance Status Database, Hospital Summary Utilization Data and Long Term Care Databases"
+:downloads: 
+:organization: 
+  :name: DHCFP - Division of Health Care Finance & Policy
+  :url: http://www.mass.gov/dhcfp
+:source_type: api
+:title: DHCFP Data Resources
+:url: http://www.mass.gov/?pageID=eohhs2subtopic&L=5&L0=Home&L1=Researcher&L2=Physical+Health+and+Treatment&L3=Health+Care+Delivery+System&L4=DHCFP+Data+Resources&sid=Eeohhs2

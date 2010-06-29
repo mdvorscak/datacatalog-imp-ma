@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Financial
+:description: Resources related to the Commonwealth of Massachusetts annual budget including current and archived budget documents, revenue projections and other related materials.
+:downloads: 
+:organization: 
+  :name: ANF- Executive Office for Administration and Finance
+  :url: http://www.mass.gov/anf
+:source_type: api
+:title: State Budgets
+:url: http://www.mass.gov/?pageID=afsubtopic&L=3&L0=Home&L1=Budget,+Taxes+&+Procurement&L2=State+Budget&sid=Eoaf

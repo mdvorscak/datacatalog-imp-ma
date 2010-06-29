@@ -1,0 +1,38 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 01/11/10
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://www.doe.mass.edu/contact/qanda.aspx
+      :name: " Comment/Inquiry Form "
+:description: |-
+  Special Education Enrollment by Disability - XLS, XML, CSV, JSON, HTML
+  
+  	Special Education Enrollment by Age - XLS, XML, CSV, JSON, HTML
+  
+  	Special Education Enrollment by Race/Gender - XLS, XML, CSV, JSON, HTML
+  
+  	Special Education Rates for Special Populations - XLS, XML, CSV, JSON, HTML
+  
+  	Special Education Counts and Rates for Educational Environment - XLS, XML, CSV, JSON, HTML
+:downloads: 
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: api
+:title: 2008-2009 Enrollment of Students with Disabilities
+:url: http://www.doe.mass.edu/infoservices/reports/enroll/default.html

@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: "Search for corporations by: Name, ID, Filing Number, Registrant"
+:downloads: 
+:organization: 
+  :name: Secretary of the Commonwealth, Corporations Division
+  :url: http://www.sec.state.ma.us/cor/coridx.htm
+:source_type: api
+:title: Corporations Database
+:url: http://corp.sec.state.ma.us/corp/corpsearch/corpsearchinput.asp

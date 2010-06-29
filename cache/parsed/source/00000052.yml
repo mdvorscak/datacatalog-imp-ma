@@ -1,0 +1,48 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 01/04/10
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://www.doe.mass.edu/contact/qanda.aspx
+      :name: " Comment/Inquiry Form "
+:description: |-
+  2009 MCAS Report for Grade 10, by district, for all students 
+  Notes:
+  2006 Rules/Policies Applied
+  	Data Last Updated on October 27, 2009
+  	Grade 10 Science and Technology/Engineering results represent the highest performance level attained by class of 2011 students in grades 9 or 10 in any of the four subjects (Biology, Chemistry, Introductory Physics, and Technology/Engineering). In addition, only students enrolled in Massachusetts since October 2007 are included in state-level results; only students enrolled in the same district since October 2007 are included in district-level results; only students enrolled in the same school since October 2007 are included in school-level results.
+  	Median student growth percentiles (SGP) are not calculated if number of students included in SGP less than 20.
+  	The Massachusetts Department of Elementary and Secondary Education does not rank schools or districts on the basis of MCAS results.
+  	For multi-school districts, school results for districts with more than one school include students enrolled for the entire academic school year. District results include all from the district who were tested.
+  	For single-school districts, MCAS results for districts that only operate a single school include all students tested in the district. It is fairest to compare results from single-school districts to other district results, rather than to school-level results.
+:downloads: 
+- :format: XML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.xml?version=1
+- :format: HTML
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.htm?version=1
+- :format: CSV
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.csv?version=1
+- :format: XLS
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.xls?version=1
+- :format: JSON
+  :url: https://wiki.state.ma.us/confluence/download/attachments/83820598/mcas_bydist_gr10_all.json?version=1
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: dataset
+:title: MCAS Performance Results
+:url: http://profiles.doe.mass.edu/state_report/mcas.aspx

@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: Tables of childhood lead screening percentages, incidence by blood lead levels, and childhood incidence rates for elevated and poisoned blood lead levels, based on reported tests.
+:downloads: 
+:organization: 
+  :name: DPH- Department of Public Health
+  :url: http://www.mass.gov/dph
+:source_type: api
+:title: Childhood Lead Poisoning Screening and Incidence Statistics by Community
+:url: http://www.mass.gov/?pageID=eohhs2terminal&L=5&L0=Home&L1=Researcher&L2=Community+Health+and+Safety&L3=Environmental+Health&L4=Lead+Research+and+Statistics&sid=Eeohhs2&b=terminalcontent&f=dph_environmental_lead_r_screen_stats&csid=Eeohhs2

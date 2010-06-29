@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Public Safety
+:description: Hate Crime and other Crime Reports
+:downloads: 
+:organization: 
+  :name: EOPSS- Executive Office of Public Safety and Security
+  :url: http://www.mass.gov/eopss
+:source_type: api
+:title: Crime Reports
+:url: http://www.mass.gov/?pageID=eopsterminal&L=3&L0=Home&L1=Law+Enforcement+&+Criminal+Justice&L2=Crime+Statistics+&+Research&sid=Eeops&b=terminalcontent&f=msp_crime_reporting_msp_crime_reporting_available_reports&csid=Eeops

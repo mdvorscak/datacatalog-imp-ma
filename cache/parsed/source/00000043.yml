@@ -1,0 +1,29 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: Updated periodically
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: Jane.Rose@state.ma.us
+      :name: " Jane.Rose@state.ma.us "
+:description: MassDEP monitors mercury levels in the edible tissues of freshwater fish. Sediment and water quality of the lakes where fish have been studied and individual fish tissue mercury concentrations are available.
+:downloads: 
+:organization: 
+  :name: DEP - Department of Environmental Protection
+  :url: http://www.mass.gov/dep
+:source_type: api
+:title: Fish Mercury Monitoring Program
+:url: http://public.dep.state.ma.us/fish/

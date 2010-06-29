@@ -1,0 +1,33 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Environmental
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: January 2010
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: Brian.Holdridge@state.ma.us
+      :name: " Brian.Holdridge@state.ma.us "
+:description: Solid Waste FacilitiesMaster List Readme
+:downloads: 
+- :format: TXT
+  :url: https://wiki.state.ma.ushttp://www.mass.gov/dep/recycle/solid/allsites.txt
+- :format: XLS
+  :url: https://wiki.state.ma.ushttp://www.mass.gov/dep/recycle/solid/allsites.xls
+:organization: 
+  :name: DEP - Department of Environmental Protection
+  :url: http://www.mass.gov/dep
+:source_type: dataset
+:title: Landfills, Transfer Stations and Compost Sites
+:url: http://www.mass.gov/dep/recycle/solid/swfacil.htm

@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+:description: The Massachusetts Department of Elementary and Secondary Education collects a variety of data from schools and districts in the state, some of which is published as a School or District Profile, directories, reports and people from individual organizations can also be found here.
+:downloads: 
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: api
+:title: School/District Profiles
+:url: http://profiles.doe.mass.edu

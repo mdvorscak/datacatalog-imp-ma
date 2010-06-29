@@ -1,0 +1,10 @@
+--- 
+:description: |-
+  Economic Data including: 
+  Employment and Jobs, Labor Force And Unemployment Rates, Occupations, Massachusetts Employment Projections, Employer Locator, Job Vacancy Survey, Business Hiring Expectations, Unemployment Insurance Claims, Labor Market Information Publications
+:organization: 
+  :home_url: http://www.mass.gov/eolwd
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+:source_type: api
+:title: Employment/Jobs, Labor Force, Unemployment Rates, Occupations, Massachusetts Employment Projections, etc.
+:url: http://www.mass.gov/?pageID=elwdtopic&L=3&L0=Home&L1=Government&L2=EOLWD+Data+and+Statistics&sid=Elwd

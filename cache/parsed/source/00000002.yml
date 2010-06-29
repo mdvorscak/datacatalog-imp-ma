@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Transportation
+:description: This database provides information on people who are bicycling, walking, jogging, skating, using wheelchairs, and pushing baby carriages---everyone moving on land without motor vehicles. Most of the data were obtained from counts performed in the Boston region.
+:downloads: 
+:organization: 
+  :name: Boston Region Metropolitan Planning Organization (external site)
+  :url: http://www.bostonmpo.org
+:source_type: api
+:title: Bicycle / Pedestrian Database
+:url: http://www.bostonmpo.org/bostonmpo/3_programs/5_bicycle_pedestrian/database.html

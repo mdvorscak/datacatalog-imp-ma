@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: Health Care Delivery System Publications and Analysis
+:downloads: 
+:organization: 
+  :name: DHCFP - Division of Health Care Finance & Policy
+  :url: http://www.mass.gov/dhcfp
+:source_type: api
+:title: DHCFP Publications and Analyses
+:url: http://www.mass.gov/?pageID=eohhs2terminal&L=4&L0=Home&L1=Researcher&L2=Physical+Health+and+Treatment&L3=Health+Care+Delivery+System&sid=Eeohhs2&b=terminalcontent&f=dhcfp_researcher_all_dhcfp_publications&csid=Eeohhs2/#rand

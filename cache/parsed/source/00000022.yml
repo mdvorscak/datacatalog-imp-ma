@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Health
+:description: The system was built to provide the public, researchers, local health officials and others with electronic data at the community level (and below) to empower local decision making.
+:downloads: 
+:organization: 
+  :name: DPH- Department of Public Health
+  :url: http://www.mass.gov/dph
+:source_type: api
+:title: Massachusetts Environmental Public Health Tracking (MA EPHT) Program
+:url: http://matracking.ehs.state.ma.us/

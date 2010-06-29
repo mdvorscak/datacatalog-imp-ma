@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Financial
+:description: "The Electronic Filing System (EFS) is a searchable campaign finance database containing activity by candidates for: statewide office, Governor's Council, the Legislature, county offices, mayor, city council and alderman in the 5 cities of the Commonwealth with populations of 100,000 or more, and mayor in the 23 cities with populations of 40,000 to 100,000; as well as state and local political party committees, political action committees and ballot question committees."
+:downloads: 
+:organization: 
+  :name: OCPF - Office of Campaign and Political Finance
+  :url: http://www.mass.gov/ocpf
+:source_type: api
+:title: Electronic Filing System (EFS)
+:url: http://www.efs.cpf.state.ma.us/default.aspx

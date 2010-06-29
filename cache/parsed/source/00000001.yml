@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Transportation
+:description: Traffic, GIS and transit data for the Boston region
+:downloads: 
+:organization: 
+  :name: Boston Region Metropolitan Planning Organization (external site)
+  :url: http://www.bostonmpo.org
+:source_type: api
+:title: Data Resources
+:url: http://www.ctps.org/bostonmpo/4_resources/3_data_resources/data.html

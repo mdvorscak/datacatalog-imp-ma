@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: Recent Decisions by the Division of Industrial Accidents
+:downloads: 
+:organization: 
+  :name: EOLWD- Executive Office of Labor and Workforce Development
+  :url: http://www.mass.gov/eolwd
+:source_type: api
+:title: Industrial Accidents Decisions
+:url: http://www.mass.gov/?pageID=elwdsubtopic&L=5&L0=Home&L1=Government&L2=EOLWD+Publications&L3=Workers'+Compensation+Publications&L4=Reviewing+Board+Decisions&sid=Elwd

@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Public Safety
+:description: Prison population and recidivism data
+:downloads: 
+:organization: 
+  :name: DOC - Department of Correction
+  :url: http://mass.gov/doc
+:source_type: api
+:title: Research Data
+:url: http://www.mass.gov/?pageID=eopssubtopic&L=4&L0=Home&L1=Law+Enforcement+&+Criminal+Justice&L2=Prisons&L3=Research+Data&sid=Eeops

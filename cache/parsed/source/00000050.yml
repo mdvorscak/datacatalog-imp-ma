@@ -1,0 +1,42 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Education
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: 01/11/10
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: http://www.doe.mass.edu/contact/qanda.aspx
+      :name: " Comment/Inquiry Form "
+:description: |-
+  Enrollment by District/Grade - XLS, XML, CSV, JSON, HTML
+  
+  	Enrollment by District/Grade/Gender - XLS, XML, CSV, JSON, HTML
+  
+  	Enrollment by District/Grade/Race - XLS, XML, CSV, JSON, HTML
+  
+  	Enrollment by School/Grade - XLS, XML, CSV, JSON, HTML
+  
+  	Enrollment by School/Race - XLS, XML, CSV, JSON, HTML
+  
+  	Enrollment by School/Gender - XLS, XML, CSV, JSON, HTML
+  
+  	Enrollment for Special Populations by District - XLS, XML, CSV, JSON, HTML
+:downloads: 
+:organization: 
+  :name: DESE - Department of Elementary and Secondary Education
+  :url: http://www.doe.mass.edu/
+:source_type: api
+:title: 2008-2009 Enrollment Data
+:url: http://www.doe.mass.edu/infoservices/reports/enroll/default.html

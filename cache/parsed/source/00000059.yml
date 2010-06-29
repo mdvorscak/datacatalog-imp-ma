@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: "Search for trademarks by: Registration, Trademark/Servicemark, Mark Description, Registrant"
+:downloads: 
+:organization: 
+  :name: Secretary of the Commonwealth, Corporations Division
+  :url: http://www.sec.state.ma.us/cor/coridx.htm
+:source_type: api
+:title: Trademark Database
+:url: http://corp.sec.state.ma.us/corp/Trademarks/TrademarkSearch.asp

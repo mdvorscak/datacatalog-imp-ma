@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Housing
+:description: Census Bureau Construction Statistics, 2000-2008
+:downloads: 
+:organization: 
+  :name: Massachusetts State Data Center at the UMass Donahue Institute
+  :url: http://www.massbenchmarks.org/statedata/statedata.htm
+:source_type: api
+:title: Building permit data
+:url: http://www.massbenchmarks.org/statedata/data/Building08.xls

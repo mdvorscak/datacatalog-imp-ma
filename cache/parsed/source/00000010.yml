@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Municipal
+:description: Commonwealth Communities is your resource for finding information on the 351 cities and towns in Massachusetts provided by state agencies and official city/town websites.
+:downloads: 
+:organization: 
+  :name: ITD - Information Technolofy Division
+  :url: http://mass.gov/itd
+:source_type: api
+:title: Commonwealth Communities
+:url: http://www.mass.gov/?pageID=mg2terminal&L=3&L0=Home&L1=State+Government&L2=Local+Government&sid=massgov2&b=terminalcontent&f=cc_landing&csid=massgov2

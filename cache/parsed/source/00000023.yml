@@ -1,0 +1,35 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: June 2007.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: |-
+  In continuing a policy of promoting renewable and clean energy sources, the Executive Office of Energy and Environmental Affairs (EOEEA) has put considerable effort into researching development sites for wind-based energy production. A key datalayer in this initiative is a modeled representation of wind velocities in the Commonwealth of Massachusetts. The original wind resource data were developed by Truewind Solutions, LLC under contract to AWS Scientific, Inc. as part of a project jointly funded by the Connecticut Clean Energy Fund, the Massachusetts Technology Collaborative (MTC), and Northeast Utilities System. This data has undergone further processing to make it more suitable for analyses that utilize other geographic datalayers maintained by MassGIS. 
+   
+  MassGIS distributes four raster layers covering all of New England and depicting mean sustained wind speeds calculated at heights of 30, 50, 70 and 100 meters above the surface.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: Modeled Wind Speed Grids
+:url: http://www.mass.gov/mgis/windspeed.htm

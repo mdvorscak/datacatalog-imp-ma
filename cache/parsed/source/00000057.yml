@@ -1,0 +1,17 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Economic
+:description: Comprehensive spreadsheets listing Recovery.gov awards for and through state agencies. Also see mass.gov/recovery for information about recovery efforts in the Commonwealth.
+:downloads: 
+:organization: 
+  :name: ANF - Massachusetts Recovery and Reinvestment Office
+  :url: http://www.mass.gov/anf
+:source_type: api
+:title: Massachusetts Recovery Downloadable Reports
+:url: http://www.mass.gov/?pageID=stimtopic&L=3&L0=Home&L1=Spending+and+Reports&L2=Downloadable+Reports&sid=Fstim

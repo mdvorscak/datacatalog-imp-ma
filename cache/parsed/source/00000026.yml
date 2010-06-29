@@ -1,0 +1,32 @@
+--- 
+:catalog_name: Massachusetts State Data Catalog
+:catalog_url: https://wiki.state.ma.us/confluence/display/data/Data+Catalog
+:custom: 
+  "0": 
+    :description: data tags
+    :label: tags
+    :type: string
+    :value: Geographic
+  "1": 
+    :description: last modified
+    :label: modified
+    :type: string
+    :value: June 2009.
+  "2": 
+    :description: The 'owner' for the current data
+    :label: contact
+    :type: string
+    :value: 
+      :email: michael.trust@state.ma.us
+      :name: " Trust, Michael\n\
+        617-626-1193 "
+:description: The Public Water Supply (PWS) datalayer contains the locations of public community surface and groundwater supply sources and public non-community supply sources as defined in 310 CMR 22.00. The public water supply systems represented in this datalayer are based primarily on information in the DEP's Water Quality Testing System (WQTS) database. The WQTS database is the Department's central database for tracking water supply data. The PWS datalayer also contains the locations of proposed wells that have a defined DEP approved wellhead protection area (Zone IIs). Proposed sources are not currently tracked in WQTS.
+:downloads: 
+- :format: Geospatial Web Services
+  :url: https://wiki.state.ma.ushttp://lyceum.massgis.state.ma.us/wiki/doku.php
+:organization: 
+  :name: MassGIS- Office of Geographic and Environmental Information
+  :url: http://www.mass.gov/mgis/
+:source_type: dataset
+:title: Public Water Supplies
+:url: http://www.mass.gov/mgis/pws.htm
