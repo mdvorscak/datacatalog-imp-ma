@@ -11,8 +11,6 @@ class Puller
   
   #Pull the initial data down and save it locally, parsed in easily readable form.
   def initialize
-  #  @logger = Logger.new(@pull_log)
-    
     @index_metadata=get_metadata
     U.write_yaml(@index_data, @index_metadata) # for easy viewing later
   end
