@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/lib/organization_puller'
 require File.dirname(__FILE__) + '/lib/source_puller'
 
-gem 'datacatalog-importer', '>= 0.1.19'
+gem 'datacatalog-importer', '~> 0.1.19'
 require 'datacatalog-importer'
 
 def setup

@@ -1,4 +1,4 @@
-gem 'datacatalog-importer', '>= 0.1.19'
+gem 'datacatalog-importer', '~> 0.1.19'
 require 'datacatalog-importer'
 
 class Puller
